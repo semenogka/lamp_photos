@@ -1,7 +1,8 @@
-
-streamlit
-torch
+torch==2.0.1
+torchvision
+torchaudio
 numpy
 Pillow
+clip @ git+https://github.com/openai/CLIP.git
+streamlit
 requests
-git+https://github.com/openai/CLIP.git
