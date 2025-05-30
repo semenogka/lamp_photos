@@ -1,25 +1,30 @@
 import os
 import torch
 import clip
-from PIL import Image
+from PIL import Image, ImageQt
 import json
-import streamlit as st
-import numpy as np
 import requests
 from io import BytesIO
+from PyQt6.QtWidgets import (
+    QApplication, QWidget, QVBoxLayout, QPushButton, QListWidget, QLabel,
+    QAbstractItemView, QListWidgetItem, QTextBrowser, QMessageBox
+)
+from PyQt6.QtCore import Qt
+from PyQt6.QtGui import QPixmap, QGuiApplication, QKeySequence, QAction
+import sys
+import base64
+
+
+def resource_path(relative_path):
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 # Устройство и загрузка модели
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device)
 
-st.title("Поиск похожих светильников")
 
-# Загрузка изображений
-uploaded_files = st.file_uploader(
-    "Загрузите или вставьте до 3 изображений",
-    type=["png", "jpg", "jpeg"],
-    accept_multiple_files=True
-)
 
 # Список текстовых меток
 labels = [
@@ -60,8 +65,8 @@ def get_image_features_and_label(image: Image.Image):
 
     return embs, best_text_features
 
-# Категории и пути к JSON
-base_path = os.path.join("alldata", "ndata")
+
+base_path = resource_path(os.path.join("alldata", "ndata"))
 
 buttons_files = {
     "Акссесуары": os.path.join(base_path, "naks.json"),
@@ -88,49 +93,110 @@ buttons_files = {
     "Встраиваемые": os.path.join(base_path, "nvstraivaem.json")
 }
 
-# Выбор категории
-selected_categories = st.multiselect("выберите до двух категорий", list(buttons_files.keys()) ,max_selections=2)
-start_search = st.button("найти похожие товары")
 
 
-# Основная логика поиска
-if uploaded_files and selected_categories and start_search:
-    result = []
-    all_embs, all_labels = [], []
-    with st.spinner("Ищем похожие..."):
-        for file in uploaded_files[:3]:
-            image = Image.open(file).convert("RGB")
-            embs, labels = get_image_features_and_label(image)
-            all_embs.append(embs)
-            all_labels.append(labels)
+class MainWindow(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Поиск светильников")
+        self.resize(1000, 1000)
 
-        total_items = 0 
+        self.layout = QVBoxLayout()
+        self.setLayout(self.layout)
         
+        paste_action = QAction(self)
+        paste_action.setShortcut(QKeySequence.StandardKey.Paste)
+        paste_action.triggered.connect(self.paste_image)
+        self.addAction(paste_action)
+        self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
 
-        for category in selected_categories:
-            
+        self.list_categories = QListWidget()
+        self.list_categories.setSelectionMode(QAbstractItemView.SelectionMode.MultiSelection)
+        self.layout.addWidget(QLabel("Выберите категории:"))
+        self.layout.addWidget(self.list_categories)
+
+        for cat in buttons_files.keys():
+            item = QListWidgetItem(cat)
+            self.list_categories.addItem(item)
+
+        self.image_preview = QLabel()
+        self.layout.addWidget(self.image_preview)
+
+        self.btn_search = QPushButton("Запустить поиск")
+        self.btn_search.clicked.connect(self.run_search)     
+        self.layout.addWidget(self.btn_search)      
+
+        self.results_browser = QTextBrowser()
+        self.layout.addWidget(self.results_browser)
+
+
+        self.results_browser.setOpenExternalLinks(True)
+        self.img = 0
+
+    def paste_image(self):
+        clipboard = QGuiApplication.clipboard()
+        mime_data = clipboard.mimeData()
+
+        if mime_data.hasImage():
+            qimage = clipboard.image()  # QImage
+            pixmap = QPixmap.fromImage(qimage)
+            self.image_preview.setPixmap(pixmap.scaled(300, 300, Qt.AspectRatioMode.KeepAspectRatio))
+
+            # Преобразуем QImage → PIL.Image правильно
+            image_pil = ImageQt.fromqimage(qimage).convert("RGB")
+            self.img = image_pil
+        else:
+            QMessageBox.warning(self, "Ошибка", "Буфер обмена не содержит изображения")
+        print("вставил")
+
             
 
+    def run_search(self):
+        print("начал поиск")
+        self.results_browser.clear()
+        if self.img == 0:
+            QMessageBox.warning(self, "Ошибка", "Сначала загрузите изображения")
+            return
+        cats = [item.text() for item in self.list_categories.selectedItems()]
+        if not cats:
+            QMessageBox.warning(self, "Ошибка", "Выберите хотя бы одну категорию")
+            return
+        
+        self.results_browser.clear()
+        self.results_browser.append("Вычисляем эмбеддинги изображений...")
+
+        result = []
+        # all_embs, all_labels = [], []
+        
+        image = self.img.convert("RGB")
+        embs, labels = get_image_features_and_label(image)
+        print("собрал эмб")
+
+        for category in cats:
+            print("начало категории")
+            QApplication.processEvents()
             clicked_file = buttons_files[category]
             with open(clicked_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-
             for item in data:
+                QApplication.processEvents()
+                print("начало файла")
                 minRes = []
                 text2 = clip.tokenize([item["label"]]).to(device)
                 with torch.no_grad():
                     tf2 = model.encode_text(text2)
                     tf2 /= tf2.norm(dim=-1, keepdim=True)
                 emb = torch.tensor(item['emb'], dtype=torch.float32).to(device)
-
-                for embs_img, labels_img in zip(all_embs, all_labels):
+                for embs_img, labels_img in zip(embs, labels):
+                    QApplication.processEvents()
                     for tf1, emb_user in zip(labels_img, embs_img):
+                        print("сравнение")
                         text_sim = torch.cosine_similarity(tf1, tf2).item()
                         if text_sim > 0.95:
                             image_sim = torch.cosine_similarity(emb_user, emb, dim=-1).item()
                             minRes.append(image_sim)
-
                 if minRes:
+                    print("минрес")
                     good_sim = max(minRes)
                     if good_sim > 0.7:
                         result.append({
@@ -139,22 +205,28 @@ if uploaded_files and selected_categories and start_search:
                             "name": item['name']
                         })
 
-    result_sorted = sorted(result, key=lambda x: x["sim"], reverse=True)
-    st.subheader("Найденные похожие товары:")   
-
-    for r in result_sorted[:100]:
-        cols = st.columns([1, 4])
-        path = os.path.join("allimgs", r.get('name', ''))
-        try:
+        result_sorted = sorted(result, key=lambda x: x["sim"], reverse=True) 
+        self.results_browser.append("\nЛучшие совпадения:")
+        print("сортед")
+        for r in result_sorted[:60]:
+            QApplication.processEvents()
             url = f"https://raw.githubusercontent.com/semenogka/lamp_photos/main/allimgs/{r['name']}"
             response = requests.get(url)
-            img = Image.open(BytesIO(response.content))
-        except Exception:
-            img = None
-        with cols[0]:
-            if img:
-                st.image(img, width=120)
-            else:
-                st.write("Изображение не найдено")
-        with cols[1]:
-            st.markdown(f"[{r['link']}]({r['link']}) — Сходство: {r['sim'] * 100:.2f}%")
+            if response.status_code == 200:
+                img_bytes = BytesIO(response.content)
+                base64_data = base64.b64encode(img_bytes.getvalue()).decode('utf-8')
+            html = f'''
+            <div style="margin-bottom:15px;">
+                <img src="data:image/jpeg;base64,{base64_data}" width="100" style="vertical-align: middle; margin-right: 10px;">
+                <a href="{r["link"]}">{r["link"]}</a><br>
+                <span>Похожесть: {r["sim"]:.3f}</span>
+            </div>
+        '''
+            self.results_browser.append(html)
+
+
+app = QApplication(sys.argv)
+win = MainWindow()
+win.show()
+sys.exit(app.exec())
+

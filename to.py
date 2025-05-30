@@ -63,7 +63,7 @@ emb1, label1, score1 = get_image_features_and_label("image1.png")
 print(f"Картинка 1: '{label1}' ({score1 * 100:.2f}%)")
 
 
-emb2, label2, score2 = get_image_features_and_label("image2.png")
+emb2, label2, score2 = get_image_features_and_label("image.png")
 print(f"Картинка 2: '{label2}' ({score2 * 100:.2f}%)")
 
 

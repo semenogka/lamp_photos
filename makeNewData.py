@@ -47,13 +47,13 @@ labels = [
 ]
 
 files = [
-    "aks",
-    "architect",
-    "bra",
-    "fasad",
-    "groont",
-    "land",
-    "lystri",
+    # "aks",
+    # "architect",
+    # "bra",
+    # "fasad",
+    # "groont",
+    # "land",
+    # "lystri",
     "magn",
     "nastol",
     "nastpot",
@@ -78,7 +78,12 @@ with torch.no_grad():
     textF /= textF.norm(dim=-1, keepdim=True)
 
 def get_emb_n_text(path):
-    image = preprocess(Image.open(path).convert("RGB")).unsqueeze(0).to(device)
+    try:
+        image = Image.open(path).convert("RGB")
+    except Exception as e:
+        print(f"Ошибка при открытии файла {path}: ")
+        return None, None
+    image = preprocess(image).unsqueeze(0).to(device)
     with torch.no_grad():
         imageF = model.encode_image(image)
         imageF /= imageF.norm(dim=-1, keepdim=True)
@@ -98,12 +103,14 @@ for filename in files:
         path = os.path.join(folder, item["name"])
 
         if not os.path.isfile(path) or not path.lower().endswith((".png", ".jpg", ".jpeg", ".webp", ".bmp")):
-            print(f"Пропущено: {path}")
+            print(f"SKIP: {path}")
             continue
 
         emb, label = get_emb_n_text(path)
+        if emb is None:
+            continue 
         emb = emb.cpu().tolist()
-
+        
         results.append({
             "emb": emb,
             "label": label,
