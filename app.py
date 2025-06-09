@@ -5,14 +5,58 @@ from PIL import Image, ImageQt
 import json
 import requests
 from io import BytesIO
+
 from PyQt6.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QPushButton, QListWidget, QLabel,
     QAbstractItemView, QListWidgetItem, QTextBrowser, QMessageBox
 )
-from PyQt6.QtCore import Qt
+from PyQt6.QtCore import Qt, QThread, pyqtSignal
 from PyQt6.QtGui import QPixmap, QGuiApplication, QKeySequence, QAction
 import sys
 import base64
+
+
+def get_files():
+
+    FOLDER = "alldata/ndata"
+
+    files = [
+    "aks",
+    "architect",
+    "bra",
+    "fasad",
+    "groont",
+    "land",
+    "lystri",
+    "magn",
+    "nastol",
+    "nastpot",
+    "parkovie",
+    "podsvet",
+    "podves",
+    "potol",
+    "projectors",
+    "tochnakl",
+    "tochpodv",
+    "tochvstr",
+    "torsher",
+    "track",
+    "trotuarnie",
+    "vstraivaem"
+    ]
+    
+
+    for file in files:
+        raw_url = f"https://raw.githubusercontent.com/semenogka/lamp_photos/refs/heads/main/alldata/ndata/n{file}.json"
+        local_path = resource_path(os.path.join(FOLDER, f"n{file}.json"))
+        res = requests.get(raw_url)
+        
+        with open(local_path, "wb") as f:
+            f.write(res.content)
+            print(file)
+    
+
+    
 
 
 def resource_path(relative_path):
@@ -47,21 +91,21 @@ with torch.no_grad():
 def get_image_features_and_label(image: Image.Image):
     embs, best_text_features = [], []
 
-    for angle in range(0, 360, 90):
-        file = image.rotate(angle, expand=True)
-        mirrored = file.transpose(Image.FLIP_LEFT_RIGHT)
+    
+        
+    mirrored = image.transpose(Image.FLIP_LEFT_RIGHT)
 
-        imageOrig = preprocess(file).unsqueeze(0).to(device)
-        imageMir = preprocess(mirrored).unsqueeze(0).to(device)
+    imageOrig = preprocess(image).unsqueeze(0).to(device)
+    imageMir = preprocess(mirrored).unsqueeze(0).to(device)
 
-        with torch.no_grad():
-            for img_tensor in [imageOrig, imageMir]:
-                image_features = model.encode_image(img_tensor)
-                image_features /= image_features.norm(dim=-1, keepdim=True)
-                similarities = (image_features @ text_features.T).squeeze(0)
-                best_idx = similarities.argmax().item()
-                best_text_features.append(text_features[best_idx].unsqueeze(0))
-                embs.append(image_features)
+    with torch.no_grad():
+        for img_tensor in [imageOrig, imageMir]:
+            image_features = model.encode_image(img_tensor)
+            image_features /= image_features.norm(dim=-1, keepdim=True)
+            similarities = (image_features @ text_features.T).squeeze(0)
+            best_idx = similarities.argmax().item()
+            best_text_features.append(text_features[best_idx].unsqueeze(0))
+            embs.append(image_features)
 
     return embs, best_text_features
 
@@ -92,12 +136,110 @@ buttons_files = {
     "Тротуарные": os.path.join(base_path, "ntrotuarnie.json"),
     "Встраиваемые": os.path.join(base_path, "nvstraivaem.json")
 }
+class Worker(QThread):
+    finished = pyqtSignal(list)
+
+    def __init__(self, img, cats):
+        super().__init__()
+        self.img = img
+        self.cats = cats
+      
+    
+    def run(self):
+        result = []
+
+        image = self.img.convert("RGB")
+        embs, labels = get_image_features_and_label(image)
+
+        for category in self.cats:
+           
+            clicked_file = buttons_files[category]
+            with open(clicked_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            
+            text_labels = [item["label"] for item in data]
 
 
+            print("do tokenov")
+            text_tokens = clip.tokenize(text_labels).to(device)
+            print("posle tokenov")
+
+            print("do text emb")
+
+            # with torch.no_grad():
+            #     QApplication.processEvents()
+            #     text_embs = model.encode_text(text_tokens)
+            #     text_embs /= text_embs.norm(dim=-1, keepdim=True)
+
+            BATCH_SIZE = 512
+            text_embs_list = []
+            
+            with torch.no_grad():
+                for i in range(0, len(text_tokens), BATCH_SIZE):
+                    
+                    batch = text_tokens[i:i + BATCH_SIZE]
+                    batch_embs = model.encode_text(batch)
+                    batch_embs /= batch_embs.norm(dim=-1, keepdim=True)
+                    text_embs_list.append(batch_embs)
+
+            text_embs = torch.cat(text_embs_list, dim=0)
+
+            print("posle text emb")
+            print("do img emb")
+
+           # emb_array = torch.tensor([item['emb'] for item in data], dtype=torch.float32).to(device)
+            emb_list = []
+            for i, item in enumerate(data):
+                
+                emb_list.append(torch.tensor(item['emb'], dtype=torch.float32))
+            emb_array = torch.stack(emb_list)
+            print("posle img emb")
+
+            
+            for embs_img, labels_img in zip(embs, labels):
+               
+                for tf1, emb_user in zip(labels_img, embs_img):
+                    
+                    text_sim = torch.cosine_similarity(tf1.unsqueeze(0), text_embs, dim=-1)
+                    indices = (text_sim > 0.95).nonzero(as_tuple=True)[0]
+                    if indices.numel() > 0:
+                        sub_emb = emb_array[indices]
+                        image_sim = torch.cosine_similarity(emb_user.unsqueeze(0), sub_emb, dim =-1)
+                        for sim_value, idx in zip(image_sim, indices):
+                            
+                            if sim_value.item() > 0.7:
+                                item = data[idx.item()]     
+                                result.append({
+                                    "sim": sim_value.item() * 100,
+                                    "link": item['link'],
+                                    "name": item['name']
+                                })  
+        result_sorted = sorted(result, key=lambda x: x["sim"], reverse=True)
+
+        res_results = []
+        for r in result_sorted[:150]:
+            url = f"https://raw.githubusercontent.com/semenogka/lamp_photos/main/allimgs/{r['name']}"
+            response = requests.get(url)
+            if response.status_code == 200:
+                img_bytes = BytesIO(response.content)
+                base64_data = base64.b64encode(img_bytes.getvalue()).decode('utf-8')
+                res_results.append({
+                    "base64": base64_data,
+                    "link": r['link'],
+                    "sim": r['sim']
+                })
+            
+
+        self.finished.emit(res_results)
 
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
+        print("подготовка приложения")
+        print("скачивание данных о светильниках")
+        #get_files()
+        print("данные подготовлены")
+
         self.setWindowTitle("Поиск светильников")
         self.resize(1000, 1000)
 
@@ -132,17 +274,18 @@ class MainWindow(QWidget):
 
         self.results_browser.setOpenExternalLinks(True)
         self.img = 0
+        print("всё готово")
 
     def paste_image(self):
         clipboard = QGuiApplication.clipboard()
         mime_data = clipboard.mimeData()
 
         if mime_data.hasImage():
-            qimage = clipboard.image()  # QImage
+            qimage = clipboard.image()  
             pixmap = QPixmap.fromImage(qimage)
             self.image_preview.setPixmap(pixmap.scaled(300, 300, Qt.AspectRatioMode.KeepAspectRatio))
 
-            # Преобразуем QImage → PIL.Image правильно
+            
             image_pil = ImageQt.fromqimage(qimage).convert("RGB")
             self.img = image_pil
         else:
@@ -161,68 +304,30 @@ class MainWindow(QWidget):
         if not cats:
             QMessageBox.warning(self, "Ошибка", "Выберите хотя бы одну категорию")
             return
-        
-        self.results_browser.clear()
+
         self.results_browser.append("Вычисляем эмбеддинги изображений...")
 
-        result = []
-        # all_embs, all_labels = [], []
+        self.worker = Worker(
+            img=self.img,
+            cats=cats,
+        )
+        self.worker.finished.connect(self.show_results)
+        self.worker.start()
         
-        image = self.img.convert("RGB")
-        embs, labels = get_image_features_and_label(image)
-        print("собрал эмб")
-
-        for category in cats:
-            print("начало категории")
-            QApplication.processEvents()
-            clicked_file = buttons_files[category]
-            with open(clicked_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-            for item in data:
-                QApplication.processEvents()
-                print("начало файла")
-                minRes = []
-                text2 = clip.tokenize([item["label"]]).to(device)
-                with torch.no_grad():
-                    tf2 = model.encode_text(text2)
-                    tf2 /= tf2.norm(dim=-1, keepdim=True)
-                emb = torch.tensor(item['emb'], dtype=torch.float32).to(device)
-                for embs_img, labels_img in zip(embs, labels):
-                    QApplication.processEvents()
-                    for tf1, emb_user in zip(labels_img, embs_img):
-                        print("сравнение")
-                        text_sim = torch.cosine_similarity(tf1, tf2).item()
-                        if text_sim > 0.95:
-                            image_sim = torch.cosine_similarity(emb_user, emb, dim=-1).item()
-                            minRes.append(image_sim)
-                if minRes:
-                    print("минрес")
-                    good_sim = max(minRes)
-                    if good_sim > 0.7:
-                        result.append({
-                            "sim": good_sim,
-                            "link": item['link'],
-                            "name": item['name']
-                        })
-
-        result_sorted = sorted(result, key=lambda x: x["sim"], reverse=True) 
+    def show_results(self, results):
         self.results_browser.append("\nЛучшие совпадения:")
-        print("сортед")
-        for r in result_sorted[:60]:
-            QApplication.processEvents()
-            url = f"https://raw.githubusercontent.com/semenogka/lamp_photos/main/allimgs/{r['name']}"
-            response = requests.get(url)
-            if response.status_code == 200:
-                img_bytes = BytesIO(response.content)
-                base64_data = base64.b64encode(img_bytes.getvalue()).decode('utf-8')
+    
+        for r in results[:150]:
+            
             html = f'''
             <div style="margin-bottom:15px;">
-                <img src="data:image/jpeg;base64,{base64_data}" width="100" style="vertical-align: middle; margin-right: 10px;">
+                <img src="data:image/jpeg;base64,{r['base64']}" width="100" style="vertical-align: middle; margin-right: 10px;">
                 <a href="{r["link"]}">{r["link"]}</a><br>
-                <span>Похожесть: {r["sim"]:.3f}</span>
+                <span>Похожесть: {r["sim"]:.3f}%</span>
             </div>
         '''
             self.results_browser.append(html)
+        
 
 
 app = QApplication(sys.argv)

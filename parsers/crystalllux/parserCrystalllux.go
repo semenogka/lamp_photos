@@ -33,7 +33,7 @@ func main() {
 		fullImgURL := e.Request.AbsoluteURL(imgUrl)
 		filename := fmt.Sprintf("CRYSTALLUX%s", extractName(fullImgURL))
 
-		downloadImg(fullImgURL, filename)
+		//downloadImg(fullImgURL, filename)
 
 		products = append(products, Product{
 			Name: filename,
@@ -46,7 +46,7 @@ func main() {
 	})	
 
 	for i := 1; i <= pages; i++{
-		url := "https://crystallux.ru/produktsiya/crystal-lux-technical-clt/technical-clt-nastolnye-svetilniki/?PAGEN_1=%d"
+		url := "https://crystallux.ru/produktsiya/dekorativnyy-svet/lyustry/?PAGEN_1=%d"
 
 
 		page := fmt.Sprintf(url, i)
@@ -58,7 +58,7 @@ func main() {
 	}
 
 	
-	saveToJson("alldata\\data\\nastol.json", products)
+	//saveToJson("alldata\\data\\nastol.json", products)
 }
 
 func downloadImg(src string, name string) {
