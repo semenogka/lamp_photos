@@ -1,0 +1,2741 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Избранное</title>
+				
+					<meta name="viewport" content="width=device-width, initial-scale=1">
+				
+        <link rel="stylesheet" href="/local/templates/isonex2024/personal.css">
+		
+		<link rel="stylesheet" href="/local/templates/isonex2024/fonts/gotham.css">
+		<link rel="stylesheet" href="/local/templates/isonex2024/swiper/swiper-bundle.css">
+		<link rel="stylesheet" href="/local/templates/isonex2024/style.css">
+		<link rel="stylesheet" href="/local/templates/isonex2024/js/nouislider.min.css">
+
+				<link rel="stylesheet" href="/local/templates/isonex2024/scss/brend_block.css">
+		<link rel="stylesheet" href="/local/templates/isonex2024/scss/help-with-choice.css">
+		<link rel="stylesheet" href="/local/templates/isonex2024/scss/direct-speech.css">
+		<link rel="stylesheet" href="/local/templates/isonex2024/scss/about-block.css">
+		<link rel="stylesheet" href="/local/templates/isonex2024/scss/digits_block.css">
+		<link rel="stylesheet" href="/local/templates/isonex2024/scss/our-mission.css">
+						
+				
+				
+		
+
+		<!-- <link rel="stylesheet" href="/local/templates/isonex2024/scss/slide-sample-2.css"> -->
+		<script data-skip-moving="true" src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+		<script src="/local/templates/isonex2024/js/nouislider.min.js"></script>
+		<script src="/local/templates/isonex2024/swiper/swiper-bundle.min.js"></script>
+		
+		
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<link href="/bitrix/cache/css/s1/isonex2024/template_5cb3dda7768188a119ce6cf89fab9a1c/template_5cb3dda7768188a119ce6cf89fab9a1c_v1.css?175075453296433" type="text/css"  data-template-style="true" rel="stylesheet" />
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"Y","pull_config_timestamp":1747835096,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1746468106});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="/bitrix/js/main/core/core.min.js?1746468211225353"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1750764552,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"1a62ea4c12645e1342f25538619398ab"});</script>
+
+
+<script src="/bitrix/js/pull/protobuf/protobuf.min.js?171939009976433"></script>
+<script src="/bitrix/js/pull/protobuf/model.min.js?171939009914190"></script>
+<script src="/bitrix/js/main/core/core_promise.min.js?17193901032490"></script>
+<script src="/bitrix/js/rest/client/rest.client.min.js?17193901029240"></script>
+<script src="/bitrix/js/pull/client/pull.client.min.js?174646810749849"></script>
+<script>BX.setJSList(["\/bitrix\/components\/bitrix\/search.title\/script.js"]);</script>
+<script>BX.setCSSList(["\/local\/templates\/isonex2024\/components\/bitrix\/search.title\/top\/style.css","\/local\/templates\/isonex2024\/styles.css","\/local\/templates\/isonex2024\/template_styles.css"]);</script>
+
+
+<script  src="/bitrix/cache/js/s1/isonex2024/template_e6dc14005a8f0e1891ce81d4f6a9b405/template_e6dc14005a8f0e1891ce81d4f6a9b405_v1.js?17507545326983"></script>
+
+	
+	</head>
+	<body>
+	<div id="panel"></div>	
+<div class="top-nav">
+	<div class="container ">
+		<!-- мобильный вариант верхнего меню -->
+		<div class="row justify-content-between align-items-center py-3 d-xl-none">
+			<div class="col-auto pe-0">
+				<a href="/">
+					<img class="main-desktop-logo" src="/local/templates/isonex2024/img/logo_sonex_black.svg" width="130" alt="">
+				</a>
+			</div>
+			<!-- <div class="col">-</div> -->
+			<div class="col-auto">
+				<div class="header-icons-list d-flex align-items-center me-1">
+
+					<div class="position-relative d-flex flex-column">
+						<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+							<a href="/auth/" class="position-relative">
+								<img src="/local/templates/isonex2024/img/person_grey.svg" width="23" alt="">
+							</a>
+						</div>
+					</div>
+
+					<div class="position-relative d-none d-sm-flex flex-column ">
+						<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+							<a href="#" class="position-relative">
+								<img src="/local/templates/isonex2024/img/icon-message.svg" width="21" alt="">
+								<span class="badge rounded-pill text-bg-primary text-white messages-cnt hidden">0</span>
+							</a>
+						</div>
+					</div>
+
+					<div class="position-relative d-none d-sm-flex flex-column">
+						<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+							<a href="/catalog/compare/" class="position-relative">
+								<img src="/local/templates/isonex2024/img/icon-compare.svg" width="23" alt="">
+								<span class="badge rounded-pill text-bg-primary text-white compare-cnt hidden">0</span>
+							</a>
+						</div>
+						<a class="title stretched-link" href="/catalog/compare/"><span class="d-none d-xxl-inline">Сравнение</span></a>
+					</div>	
+
+					<div class="position-relative d-flex flex-column">
+						<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+							<a href="/personal/wishlist/" class="position-relative">
+								<img src="/local/templates/isonex2024/img/icon-heart.svg" width="22" alt="">
+								<span class="badge rounded-pill text-bg-primary text-white favorites-cnt hidden">0</span>
+							</a>
+						</div>
+					</div>
+					<div class="position-relative d-flex flex-column">
+						<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+							<a href="/boffice/orders/" class="position-relative">
+								<img src="/local/templates/isonex2024/img/icon-cart.svg" width="21" alt="">
+								<span class="badge rounded-pill text-bg-primary text-white hidden" class="hcart_cnt">0</span>
+							</a>
+						</div>
+					</div>
+					<div class="menu-btn" role="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+						<svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect width="22.5882" height="2" fill="currentColor"/>
+							<rect y="7" width="22.5882" height="2" fill="currentColor"/>
+							<rect y="14" width="16" height="2" fill="currentColor"/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Десктоп вариант меню -->
+		<div class="row d-none d-xl-flex pt-4 pb-2">
+			<div class="col-auto">
+				<a href="/">
+					<img class="main-desktop-logo" src="/local/templates/isonex2024/img/logo_sonex_black.svg" width="127" alt="Sonex">
+				</a>
+			</div>
+			<div class="col">
+				<ul class="d-flex list-unstyled gap-4">
+					<li class="position-relative flex-shink-0">
+						<a class="link-menu" href="/about/">О компании</a>
+					</li>
+					<li class="position-relative flex-shink-0">
+						<a  class="link-menu" href="/catalog/" onclick="$('.btn-catalog').click();return false;">Каталог</a>
+					</li>
+					<li class="position-relative flex-shink-0">
+						<a  class="link-menu" href="/opt/">Партнерам</a>
+					</li>
+					<li class="position-relative menu-group flex-shink-0">
+						<a  class="link-menu" href="/designers/">Дизайнерам</a>
+					</li>	
+					<li class="position-relative menu-group flex-shink-0">
+						<a  class="link-menu" href="/contacts/">Контакты</a>
+					</li>							
+				</ul>
+			</div>
+			<div class="col-auto">
+				<div class="d-flex gap-4">
+					<div>
+						<a href="tel:+74951064242" class="link-hover-primary">
+							<svg class="text-primary" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M19.875 21C17.8417 21 15.8208 20.5 13.8125 19.5C11.8042 18.5 10 17.2 8.4 15.6C6.8 14 5.5 12.1958 4.5 10.1875C3.5 8.17917 3 6.15833 3 4.125C3 3.80833 3.10833 3.54167 3.325 3.325C3.54167 3.10833 3.80833 3 4.125 3H7.625C7.85833 3 8.0625 3.07917 8.2375 3.2375C8.4125 3.39583 8.525 3.60833 8.575 3.875L9.25 7.025C9.28333 7.25833 9.27917 7.47083 9.2375 7.6625C9.19583 7.85417 9.10833 8.01667 8.975 8.15L6.475 10.675C7.40833 12.225 8.45417 13.575 9.6125 14.725C10.7708 15.875 12.0833 16.85 13.55 17.65L15.925 15.2C16.0917 15.0167 16.2833 14.8875 16.5 14.8125C16.7167 14.7375 16.9333 14.725 17.15 14.775L20.125 15.425C20.375 15.475 20.5833 15.6 20.75 15.8C20.9167 16 21 16.2333 21 16.5V19.875C21 20.1917 20.8917 20.4583 20.675 20.675C20.4583 20.8917 20.1917 21 19.875 21ZM5.725 9.3L7.75 7.25L7.175 4.5H4.5C4.5 5.15 4.6 5.8625 4.8 6.6375C5 7.4125 5.30833 8.3 5.725 9.3ZM14.95 18.375C15.6333 18.6917 16.375 18.95 17.175 19.15C17.975 19.35 18.75 19.4667 19.5 19.5V16.825L16.925 16.3L14.95 18.375Z" fill="currentColor"></path>
+							</svg>
+							+7 (495) 106-42-42
+						</a>
+					</div>
+					<div>Город</div>
+					<div><a href="/where-to-buy/">Где купить?</a></div>
+				</div>
+			</div>
+		</div>				
+	</div>
+</div>
+
+<div class="bottom-nav">
+	<div class="container">
+		<div class="header-search-box d-flex py-3">
+			<div class="flex-grow-1">
+							
+		<form action="/catalog/" class="input-group h-100 pe-xl-4" id="title-search">
+			<button class="btn btn-primary btn-catalog d-flex align-items-center collapsed" data-bs-toggle="collapse" data-bs-target="#catalogCollapseBox" aria-expanded="false" aria-controls="catalogCollapseBox" type="button">
+				<svg class="icon-catalog" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect x="0.5" y="0.5" width="8" height="8" rx="0.5" stroke="white"/>
+					<rect x="0.5" y="12.5" width="8" height="8" rx="0.5" stroke="white"/>
+					<rect x="12.5" y="0.5" width="8" height="8" rx="0.5" stroke="white"/>
+					<rect x="12.5" y="12.5" width="8" height="8" rx="0.5" stroke="white"/>
+				</svg>
+				<svg class="icon-close" width="21" height="21" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+					<path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+				</svg>						
+				<span class="d-none d-md-block ms-md-3">Категории</span>
+			</button>
+			<input id="title-search-input" type="text" name="q" class="form-control search-catalog px-25 px-md-3 px-lg-4" placeholder="Поиск по артикулу, наименованию и серии товара" value="">
+			
+			<svg class="icon-clear" width="21" height="21" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style="display:none;">
+				<path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+			</svg>
+			
+			<button class="btn btn-primary btn-search" type="submit">
+				<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M20.8554 19.2313L15.8764 14.2522C15.782 14.1579 15.659 14.1087 15.5278 14.1087H14.9864C16.2783 12.6117 17.0617 10.6635 17.0617 8.53083C17.0617 3.81837 13.2433 0 8.53083 0C3.81837 0 0 3.81837 0 8.53083C0 13.2433 3.81837 17.0617 8.53083 17.0617C10.6635 17.0617 12.6117 16.2783 14.1087 14.9864V15.5278C14.1087 15.659 14.162 15.782 14.2522 15.8764L19.2313 20.8554C19.4241 21.0482 19.7358 21.0482 19.9285 20.8554L20.8554 19.9285C21.0482 19.7358 21.0482 19.4241 20.8554 19.2313ZM8.53083 15.093C4.90523 15.093 1.96865 12.1564 1.96865 8.53083C1.96865 4.90523 4.90523 1.96865 8.53083 1.96865C12.1564 1.96865 15.093 4.90523 15.093 8.53083C15.093 12.1564 12.1564 15.093 8.53083 15.093Z" fill="white"/>
+				</svg>								
+			</button>
+		</form>
+<script>
+	BX.ready(function(){
+		new JCTitleSearch({
+			'AJAX_PAGE' : '/upload/iblock/603/6030bea898eb7590ad187f3449e1fec9.jpeg',
+			'CONTAINER_ID': 'title-search',
+			'INPUT_ID': 'title-search-input',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+	
+	$('.search-catalog').keyup(function(){
+		if($(this).val()) {
+			$('.icon-clear').show();
+		} else {
+			$('.icon-clear').hide();
+		}
+	});
+	$('.icon-clear').click(function(){
+		
+		$('.search-catalog').val('');
+		$(this).hide();
+		
+		
+		return false;
+	});
+	
+	
+</script>
+			</div>
+			<div class="header-icons-list d-none d-xl-flex">
+				<div class="position-relative d-flex flex-column">
+					<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+						<img src="/local/templates/isonex2024/img/person_grey.svg" alt="">
+					</div>
+															<a href="/auth/" class="title stretched-link"><span class="d-none d-xxl-inline">
+						Войти</span></a>
+				</div>
+				<div class="position-relative d-flex flex-column">
+					<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+						<div class="position-relative">
+							<img src="/local/templates/isonex2024/img/icon-message.svg" alt="">
+							<span class="badge rounded-pill text-bg-primary text-white hidden">0</span>
+						</div>
+					</div>
+					<a class="title stretched-link" href="/"><span class="d-none d-xxl-inline messages-cnt">Сообщения</span></a>
+				</div>
+				<div class="position-relative d-flex flex-column">
+					<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+						<div class="position-relative">
+							<img src="/local/templates/isonex2024/img/icon-compare.svg" alt="">
+							<span class="badge rounded-pill text-bg-primary text-white compare-cnt hidden">0</span>
+						</div>
+					</div>
+					<a class="title stretched-link" href="/catalog/compare/"><span class="d-none d-xxl-inline">Сравнение</span></a>
+				</div>											
+				<div class="position-relative d-flex flex-column">
+					<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+						<div class="position-relative">
+							<img src="/local/templates/isonex2024/img/icon-heart.svg" alt="">
+							<span class="badge rounded-pill text-bg-primary text-white favorites-cnt hidden">0</span>
+						</div>
+					</div>
+					<a class="title stretched-link" href="/personal/wishlist/"><span class="d-none d-xxl-inline">Избранное</span></a>
+				</div>
+				<div class="position-relative d-flex flex-column">
+					<div class="flex-grow-1 d-flex h-100 align-items-center justify-content-center">
+						<div class="position-relative">
+							<img src="/local/templates/isonex2024/img/icon-cart.svg" alt="">
+							<span class="badge rounded-pill text-bg-primary text-white hcart_cnt hidden">0</span>
+						</div>
+					</div>
+					<a class="title stretched-link" href="/boffice/orders"><span class="d-none d-xxl-inline">Мой заказ</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="collapse multi-collapse p-4 shadow" id="catalogCollapseBox">
+			<div class="row">
+				<div class="col-12 col-md-6 col-xl-4 col-xxl-4">
+					<ul class="list-group list-group-flush theme-light">
+																					<li class="list-group-item menu_lvl_1_items active" data-id="116">Декоративное освещение</li>
+																												<li class="list-group-item menu_lvl_1_items" data-id="126">Функциональное освещение</li>
+																												<li class="list-group-item menu_lvl_1_items" data-id="137">Ландшафтное освещение</li>
+																												<li class="list-group-item menu_lvl_1_items"><a href="/catalog/">Все товары</a></li>
+							
+																												<li class="list-group-item menu_lvl_1_items"><a href="/catalog/filter/dev_naznachenie_na_sayte-is-торговое%20оборудование/apply/">Торговое оборудование</a></li>
+							
+																		</ul>
+				</div>
+				<div class="col-12 col-md-6 col-xl-8 col-xxl-8">
+											<div class="theme-light pt-4 px-4 px-xxl-5 pt-xxl-5 menu_lvl_1_content active" data-id="116">
+							<div class="row row-cols-1 row-cols-xl-2">
+								<div class="col">
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-люстры/apply/" class="top-menu-right-h">Люстры</a>
+																							<span class="top-sub-menu-item_arrow"></span>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-люстры%20на%20цепи/apply/">Люстры на цепи</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-люстры%20потолочные/apply/">Люстры потолочные</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-люстры%20овальные%20-%20прямоугольные/apply/">Люстры овальные / прямоугольные</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-люстры%20больших%20размеров/apply/">Люстры больших размеров</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-люстры%20подвесные/apply/">Люстры подвесные</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-люстры%20на%20штанге/apply/">Люстры на штанге</a></li>
+																							<li><a class="link-hover-primary mb-hidden hidden"  href="/catalog/filter/dev_naznachenie_na_sayte-is-люстры%20каскадные/apply/">Люстры каскадные</a></li>
+																							<li><a class="link-hover-primary mb-hidden hidden"  href="/catalog/filter/dev_naznachenie_na_sayte-is-люстра-вентилятор/apply/">Люстры-вентилятор</a></li>
+																							<li><a class="link-hover-primary mb-hidden hidden"  href="/catalog/filter/dev_naznachenie_na_sayte-is-люстры%20линейные/apply/">Люстры линейные</a></li>
+																																		<li class="menu-more-li"><a href="#" class="menu-more-link">Еще</a></li>
+																					</ul>
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-потолочные%20светильники/apply/" class="top-menu-right-h">Потолочные светильники</a>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																																</ul>
+																														</div>
+											<div class="col">
+																				<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_naznachenie_na_sayte-is-настенно-потолочные%20светильники/apply/" class="top-menu-right-h">Настенно-потолочные светильники</a>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																																</ul>
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-настенные%20светильники%20и%20бра/apply/" class="top-menu-right-h">Настенные светильники и бра</a>
+																							<span class="top-sub-menu-item_arrow"></span>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-настенные%20светильники/apply/">Настенные светильники</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-настенные%20%28бра%29/apply/">Настенные (бра)</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-подсветка%20для%20картин/apply/">Подсветка для картин</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-настенные%20на%20кронштейне%20поворотном%20-%20раздвижном/apply/">Настенные на кронштейне поворотном / раздвижном</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-настенный%20светильник-конструктор%20fino/apply/">Настенный светильник-конструктор FINO</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-светильники%20настенные%20с%20отраженным%20светом/apply/">Светильники настенные с отраженным светом</a></li>
+																																</ul>
+																														</div>
+											<div class="col">
+																				<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-настольные%20светильники/apply/" class="top-menu-right-h">Настольные светильники</a>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																																</ul>
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-подвесные%20светильники/apply/" class="top-menu-right-h">Подвесные светильники</a>
+																							<span class="top-sub-menu-item_arrow"></span>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-подвесные%20линейные/apply/">Подвесные линейные</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-подвесные%20одиночные/apply/">Подвесные одиночные</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-светильники%20на%20штанге/apply/">Светильники на штанге</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-светильники%20на%20струнах/apply/">Светильники на струнах</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-база%20потолочная/apply/">База потолочная</a></li>
+																																</ul>
+																														</div>
+											<div class="col">
+																				<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-напольные%20светильники/apply/" class="top-menu-right-h">Напольные светильники</a>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																																</ul>
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-светильники%20гипсовые%20под%20покраску/apply/" class="top-menu-right-h">Светильники гипсовые под покраску</a>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																																</ul>
+																	
+								</div>
+							</div>
+						</div>
+											<div class="theme-light pt-4 px-4 px-xxl-5 pt-xxl-5 menu_lvl_1_content" data-id="126">
+							<div class="row row-cols-1 row-cols-xl-2">
+								<div class="col">
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-трековые%20системы%20220v/apply/" class="top-menu-right-h">Трековые системы 220V</a>
+																							<span class="top-sub-menu-item_arrow"></span>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-однофазная%20трековая%20система%20base%20220v/apply/">Однофазная трековая система BASE 220V</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-однофазная%20трековая%20система%20expert%20220v/apply/">Однофазная трековая система EXPERT 220V</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-трехфазная%20трековая%20система%20eurotrack%20220v/apply/">Трехфазная трековая система EUROTRACK 220V</a></li>
+																																</ul>
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-низковольтные%20трековые%20системы%2024v-48v/apply/" class="top-menu-right-h">Низковольтные трековые системы 24V/48V</a>
+																							<span class="top-sub-menu-item_arrow"></span>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-низковольтная%20трековая%20система%20flum%2048v/apply/">Низковольтная трековая система FLUM 48V</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-низковольтная%20ультратонкая%20трековая%20система%20smal%2048v/apply/">Низковольтная ультратонкая трековая система SMAL 48V</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-низковольтная%20гибридная%20трековая%20система%20easy%2024v/apply/">Низковольтная гибридная трековая система EASY 24V</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-трековая%20низковольтная%20система%20kit/apply/">Трековая низковольтная система KIT</a></li>
+																																</ul>
+																														</div>
+											<div class="col">
+																				<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-модульные%20системы/apply/" class="top-menu-right-h">Модульные системы</a>
+																							<span class="top-sub-menu-item_arrow"></span>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-модульная%20низковольтная%20smart-система%20glat/apply/">Модульная низковольтная smart-система GLAT</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-модульная%20система%20vitz/apply/">Модульная система VITZ</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-модульная%20линейная%20система%20bits/apply/">Модульная линейная система BITS</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-модульная%20линейная%20система%20ratio/apply/">Модульная линейная система RATIO</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-гибкий%20неон%20ramo/apply/">Гибкий неон RAMO</a></li>
+																																</ul>
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-накладные%20светильники/apply/" class="top-menu-right-h">Накладные светильники</a>
+																							<span class="top-sub-menu-item_arrow"></span>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-накладные%20потолочные%20светильники/apply/">Накладные потолочные светильники</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-накладные%20подвесные%20светильники/apply/">Накладные подвесные светильники</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-накладные%20настенные%20светильники/apply/">Накладные настенные светильники</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-светильники-конструктор/apply/">Светильники-конструктор</a></li>
+																																</ul>
+																														</div>
+											<div class="col">
+																				<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-влагозащищенные%20светильники/apply/" class="top-menu-right-h">Влагозащищенные светильники</a>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																																</ul>
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-встраиваемые%20светильники/apply/" class="top-menu-right-h">Встраиваемые светильники</a>
+																							<span class="top-sub-menu-item_arrow"></span>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-подсветка%20лестницы%20интерьерная/apply/">Подсветка лестницы интерьерная</a></li>
+																																</ul>
+																														</div>
+											<div class="col">
+																				<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_naznachenie_na_sayte-is-светильники%20с%20пультом%20ду/apply/" class="top-menu-right-h">Светильники с пультом ДУ</a>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																																</ul>
+																	
+								</div>
+							</div>
+						</div>
+											<div class="theme-light pt-4 px-4 px-xxl-5 pt-xxl-5 menu_lvl_1_content" data-id="137">
+							<div class="row row-cols-1 row-cols-xl-2">
+								<div class="col">
+																													<div class="mb-2 top-sub-menu-item">
+											<a href="/catalog/filter/dev_site_category-is-уличные%20светильники/apply/" class="top-menu-right-h">Уличные светильники</a>
+																							<span class="top-sub-menu-item_arrow"></span>
+																					</div>
+										<ul class="list-unstyled d-flex flex-column gap-2 mb-5 hidden">
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-ландшафтные%20светильники/apply/">Ландшафтные светильники</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-уличные%20встраиваемые/apply/">Уличные встраиваемые</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-подсветка%20лестницы/apply/">Подсветка лестницы IP</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-уличные%20фасадные/apply/">Уличные фасадные</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-уличные%20подвесные/apply/">Уличные подвесные</a></li>
+																							<li><a class="link-hover-primary"  href="/catalog/filter/dev_naznachenie_na_sayte-is-уличные%20потолочные/apply/">Уличные потолочные</a></li>
+																							<li><a class="link-hover-primary mb-hidden hidden"  href="/catalog/filter/dev_naznachenie_na_sayte-is-грунтовые%20светильники/apply/">Грунтовые светильники</a></li>
+																																		<li class="menu-more-li"><a href="#" class="menu-more-link">Еще</a></li>
+																					</ul>
+																	
+								</div>
+							</div>
+						</div>
+											<div class="theme-light pt-4 px-4 px-xxl-5 pt-xxl-5 menu_lvl_1_content" data-id="144">
+							<div class="row row-cols-1 row-cols-xl-2">
+								<div class="col">
+																	
+								</div>
+							</div>
+						</div>
+											<div class="theme-light pt-4 px-4 px-xxl-5 pt-xxl-5 menu_lvl_1_content" data-id="145">
+							<div class="row row-cols-1 row-cols-xl-2">
+								<div class="col">
+																	
+								</div>
+							</div>
+						</div>
+									</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!-- Правое меню открывающееся -->
+<aside class="offcanvas offcanvas-end header-mobile_menu" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+	<div class="offcanvas-header">
+		<!-- <img src="/local/templates/isonex2024/img/sonex-lolo-mob-popup.png" alt=""> -->
+		<img class="main-desktop-logo" src="/local/templates/isonex2024/img/logo_sonex_black.svg" width="130" alt="">
+		<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body d-flex flex-column">
+
+		<div class="flex-grow-1">
+			<ul class="top_menu-mobile-list list-group list-group-flush">
+				<li class="list-group-item px-0">
+					<a class="link-hover-primary" href="/about/">О компании</a>
+				</li>
+				<li class="list-group-item px-0">
+					<a class="link-hover-primary" href="/catalog/">Каталог</a>
+				</li>
+				<li class="list-group-item px-0">
+					<a class="link-hover-primary" href="/opt/">
+						Партнерам
+					</a>
+				</li>				
+				<li class="list-group-item px-0">
+					<a class="link-hover-primary" href="/designers/">
+						Дизайнерам
+					</a>
+				</li>		
+				<!--<li class="list-group-item px-0">
+					<a class="link-hover-primary" href="/marketplace/">
+						Маркетплейсы
+					</a>
+				</li>-->
+				<li class="list-group-item px-0">
+					<a class="link-hover-primary" href="/contacts/">Контакты</a>
+				</li>
+				<li class="list-group-item px-0">
+					<a class="link-hover-primary" href="/where-to-buy/">Где купить</a>
+				</li>
+			</ul>
+
+
+			<ul class="top_menu-mobile-personal list-unstyled mt-5">
+				<li>
+					<a role="button" href="/catalog/compare/">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="3" y="5" width="18" height="1.5" rx="0.75" fill="currentColor"/>
+							<rect x="3" y="8.75" width="18" height="1.5" rx="0.75" fill="currentColor"/>
+							<rect x="3" y="12.5" width="10.5" height="1.5" rx="0.75" fill="currentColor"/>
+							<rect x="3" y="16.5" width="7.5" height="1.5" rx="0.75" fill="currentColor"/>
+							<rect x="17.25" y="12.5" width="1.5" height="6" rx="0.75" fill="currentColor"/>
+							<rect x="15" y="16.25" width="1.5" height="6" rx="0.75" transform="rotate(-90 15 16.25)" fill="currentColor"/>
+						</svg>
+						Сравнение
+						<div class="note compare-cnt">0</div>
+					</a>
+				</li>
+				<li>
+					<a role="button" href="/personal/wishlist/">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 20L11.0775 19.1924C9.4875 17.7808 8.175 16.5621 7.14 15.5362C6.105 14.5102 5.28 13.5935 4.665 12.7858C4.05 11.9782 3.61875 11.2469 3.37125 10.5921C3.12375 9.93724 3 9.27513 3 8.60573C3 7.29604 3.45375 6.201 4.36125 5.3206C5.26875 4.4402 6.39 4 7.725 4C8.58 4 9.37125 4.19645 10.0987 4.58936C10.8262 4.98226 11.46 5.5498 12 6.29195C12.63 5.50614 13.2975 4.92769 14.0025 4.55662C14.7075 4.18554 15.465 4 16.275 4C17.61 4 18.7312 4.4402 19.6387 5.3206C20.5462 6.201 21 7.29604 21 8.60573C21 9.27513 20.8762 9.93724 20.6287 10.5921C20.3812 11.2469 19.95 11.9782 19.335 12.7858C18.72 13.5935 17.895 14.5102 16.86 15.5362C15.825 16.5621 14.5125 17.7808 12.9225 19.1924L12 20ZM12 18.2756C13.515 16.9222 14.7638 15.7617 15.7463 14.794C16.7288 13.8263 17.5087 12.9786 18.0863 12.251C18.6638 11.5234 19.0687 10.8759 19.3012 10.3083C19.5337 9.74079 19.65 9.17326 19.65 8.60573C19.65 7.64529 19.335 6.85584 18.705 6.23738C18.075 5.61892 17.265 5.30969 16.275 5.30969C15.51 5.30969 14.7975 5.53888 14.1375 5.99727C13.4775 6.45566 12.945 7.09959 12.54 7.92906H11.4375C11.0475 7.11414 10.5225 6.47385 9.8625 6.00819C9.2025 5.54252 8.49 5.30969 7.725 5.30969C6.735 5.30969 5.925 5.61892 5.295 6.23738C4.665 6.85584 4.35 7.64529 4.35 8.60573C4.35 9.17326 4.46625 9.74443 4.69875 10.3192C4.93125 10.894 5.33625 11.5489 5.91375 12.2838C6.49125 13.0186 7.275 13.8663 8.265 14.8267C9.255 15.7872 10.5 16.9368 12 18.2756Z" fill="currentColor"/>
+						</svg>
+						Избранное
+						<div class="note favorites-cnt">0</div>
+					</a>
+				</li>
+				<li>
+					<a role="button" href="">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M7.41837 21C6.95918 21 6.56888 20.8423 6.24745 20.5269C5.92602 20.2115 5.76531 19.8285 5.76531 19.378C5.76531 18.9274 5.92602 18.5444 6.24745 18.229C6.56888 17.9136 6.95918 17.7559 7.41837 17.7559C7.87755 17.7559 8.26786 17.9136 8.58929 18.229C8.91071 18.5444 9.07143 18.9274 9.07143 19.378C9.07143 19.8285 8.91071 20.2115 8.58929 20.5269C8.26786 20.8423 7.87755 21 7.41837 21ZM16.602 21C16.1429 21 15.7526 20.8423 15.4311 20.5269C15.1097 20.2115 14.949 19.8285 14.949 19.378C14.949 18.9274 15.1097 18.5444 15.4311 18.229C15.7526 17.9136 16.1429 17.7559 16.602 17.7559C17.0612 17.7559 17.4515 17.9136 17.773 18.229C18.0944 18.5444 18.2551 18.9274 18.2551 19.378C18.2551 19.8285 18.0944 20.2115 17.773 20.5269C17.4515 20.8423 17.0612 21 16.602 21ZM6.22449 6.13141L8.75 11.2678H15.3622L18.2321 6.13141H6.22449ZM5.53571 4.77972H19.0587C19.4107 4.77972 19.6786 4.93742 19.8622 5.25282C20.0459 5.56821 20.0459 5.8836 19.8622 6.199L16.7628 11.6733C16.5944 11.9587 16.3763 12.1877 16.1084 12.3604C15.8406 12.5332 15.5459 12.6195 15.2245 12.6195H8.26786L6.98214 14.9625H18.2551V16.3141H7.18878C6.54592 16.3141 6.08291 16.1039 5.79974 15.6834C5.51658 15.2628 5.52041 14.7897 5.81122 14.2641L7.28061 11.6058L3.79082 4.35169H2V3H4.68622L5.53571 4.77972ZM8.75 11.2678H15.3622H8.75Z" fill="currentColor"/>
+						</svg>
+						Корзина
+						<div class="note">0</div>
+					</a>
+				</li>
+				<li>
+					<a role="button" href="">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M7.5 16.85C7.7 16.85 7.875 16.775 8.025 16.625C8.175 16.475 8.25 16.3 8.25 16.1C8.25 15.9 8.175 15.725 8.025 15.575C7.875 15.425 7.7 15.35 7.5 15.35C7.3 15.35 7.125 15.425 6.975 15.575C6.825 15.725 6.75 15.9 6.75 16.1C6.75 16.3 6.825 16.475 6.975 16.625C7.125 16.775 7.3 16.85 7.5 16.85ZM7.5 12.75C7.7 12.75 7.875 12.675 8.025 12.525C8.175 12.375 8.25 12.2 8.25 12C8.25 11.8 8.175 11.625 8.025 11.475C7.875 11.325 7.7 11.25 7.5 11.25C7.3 11.25 7.125 11.325 6.975 11.475C6.825 11.625 6.75 11.8 6.75 12C6.75 12.2 6.825 12.375 6.975 12.525C7.125 12.675 7.3 12.75 7.5 12.75ZM7.5 8.65C7.7 8.65 7.875 8.575 8.025 8.425C8.175 8.275 8.25 8.1 8.25 7.9C8.25 7.7 8.175 7.525 8.025 7.375C7.875 7.225 7.7 7.15 7.5 7.15C7.3 7.15 7.125 7.225 6.975 7.375C6.825 7.525 6.75 7.7 6.75 7.9C6.75 8.1 6.825 8.275 6.975 8.425C7.125 8.575 7.3 8.65 7.5 8.65ZM10.8 16.85H16.9V15.35H10.8V16.85ZM10.8 12.75H16.9V11.25H10.8V12.75ZM10.8 8.65H16.9V7.15H10.8V8.65ZM4.5 21C4.1 21 3.75 20.85 3.45 20.55C3.15 20.25 3 19.9 3 19.5V4.5C3 4.1 3.15 3.75 3.45 3.45C3.75 3.15 4.1 3 4.5 3H19.5C19.9 3 20.25 3.15 20.55 3.45C20.85 3.75 21 4.1 21 4.5V19.5C21 19.9 20.85 20.25 20.55 20.55C20.25 20.85 19.9 21 19.5 21H4.5ZM4.5 19.5H19.5V4.5H4.5V19.5ZM4.5 4.5V19.5V4.5Z" fill="currentColor"/>
+						</svg>
+						Заказы
+					</a>
+				</li>
+				<li>
+					<a role="button" href="/personal/">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 11.9746C10.9 11.9746 10 11.6246 9.3 10.9246C8.6 10.2246 8.25 9.32461 8.25 8.22461C8.25 7.12461 8.6 6.22461 9.3 5.52461C10 4.82461 10.9 4.47461 12 4.47461C13.1 4.47461 14 4.82461 14.7 5.52461C15.4 6.22461 15.75 7.12461 15.75 8.22461C15.75 9.32461 15.4 10.2246 14.7 10.9246C14 11.6246 13.1 11.9746 12 11.9746ZM4 19.9996V17.6496C4 17.0163 4.15833 16.4746 4.475 16.0246C4.79167 15.5746 5.2 15.2329 5.7 14.9996C6.81667 14.4996 7.8875 14.1246 8.9125 13.8746C9.9375 13.6246 10.9667 13.4996 12 13.4996C13.0333 13.4996 14.0583 13.6288 15.075 13.8871C16.0917 14.1454 17.1583 14.5163 18.275 14.9996C18.7917 15.2329 19.2083 15.5746 19.525 16.0246C19.8417 16.4746 20 17.0163 20 17.6496V19.9996H4ZM5.5 18.4996H18.5V17.6496C18.5 17.3829 18.4208 17.1288 18.2625 16.8871C18.1042 16.6454 17.9083 16.4663 17.675 16.3496C16.6083 15.8329 15.6333 15.4788 14.75 15.2871C13.8667 15.0954 12.95 14.9996 12 14.9996C11.05 14.9996 10.125 15.0954 9.225 15.2871C8.325 15.4788 7.35 15.8329 6.3 16.3496C6.06667 16.4663 5.875 16.6454 5.725 16.8871C5.575 17.1288 5.5 17.3829 5.5 17.6496V18.4996ZM12 10.4746C12.65 10.4746 13.1875 10.2621 13.6125 9.83711C14.0375 9.41211 14.25 8.87461 14.25 8.22461C14.25 7.57461 14.0375 7.03711 13.6125 6.61211C13.1875 6.18711 12.65 5.97461 12 5.97461C11.35 5.97461 10.8125 6.18711 10.3875 6.61211C9.9625 7.03711 9.75 7.57461 9.75 8.22461C9.75 8.87461 9.9625 9.41211 10.3875 9.83711C10.8125 10.2621 11.35 10.4746 12 10.4746Z" fill="currentColor"/>
+						</svg>
+						Личный кабинет
+						<div class="note">
+							<svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0 9.35V8.525H1.3125V4.3175C1.3125 3.5475 1.57031 2.86229 2.08594 2.26188C2.60156 1.66146 3.28125 1.28333 4.125 1.1275V0.72875C4.125 0.517917 4.21094 0.34375 4.38281 0.20625C4.55469 0.06875 4.76042 0 5 0C5.23958 0 5.44531 0.06875 5.61719 0.20625C5.78906 0.34375 5.875 0.517917 5.875 0.72875V1.1275C6.71875 1.28333 7.40104 1.66146 7.92187 2.26188C8.44271 2.86229 8.70312 3.5475 8.70312 4.3175V8.525H10V9.35H0ZM5 11C4.66667 11 4.375 10.8923 4.125 10.6769C3.875 10.4615 3.75 10.2025 3.75 9.9H6.25C6.25 10.2025 6.1276 10.4615 5.88281 10.6769C5.63802 10.8923 5.34375 11 5 11Z" fill="currentColor"/>
+							</svg>							
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="mt-5">
+			<div class="footer__contacts-telmail">
+				<a href="tel:+74951064242" class="link-hover-primary">
+					<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M19.875 21C17.8417 21 15.8208 20.5 13.8125 19.5C11.8042 18.5 10 17.2 8.4 15.6C6.8 14 5.5 12.1958 4.5 10.1875C3.5 8.17917 3 6.15833 3 4.125C3 3.80833 3.10833 3.54167 3.325 3.325C3.54167 3.10833 3.80833 3 4.125 3H7.625C7.85833 3 8.0625 3.07917 8.2375 3.2375C8.4125 3.39583 8.525 3.60833 8.575 3.875L9.25 7.025C9.28333 7.25833 9.27917 7.47083 9.2375 7.6625C9.19583 7.85417 9.10833 8.01667 8.975 8.15L6.475 10.675C7.40833 12.225 8.45417 13.575 9.6125 14.725C10.7708 15.875 12.0833 16.85 13.55 17.65L15.925 15.2C16.0917 15.0167 16.2833 14.8875 16.5 14.8125C16.7167 14.7375 16.9333 14.725 17.15 14.775L20.125 15.425C20.375 15.475 20.5833 15.6 20.75 15.8C20.9167 16 21 16.2333 21 16.5V19.875C21 20.1917 20.8917 20.4583 20.675 20.675C20.4583 20.8917 20.1917 21 19.875 21ZM5.725 9.3L7.75 7.25L7.175 4.5H4.5C4.5 5.15 4.6 5.8625 4.8 6.6375C5 7.4125 5.30833 8.3 5.725 9.3ZM14.95 18.375C15.6333 18.6917 16.375 18.95 17.175 19.15C17.975 19.35 18.75 19.4667 19.5 19.5V16.825L16.925 16.3L14.95 18.375Z" fill="currentColor"></path>
+					</svg>
+					+7 (495) 106-42-42
+				</a>
+				<a href="mailto:info@isonex.ru" class="link-hover-primary">
+					<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M3.5 20C3.1 20 2.75 19.85 2.45 19.55C2.15 19.25 2 18.9 2 18.5V5.5C2 5.1 2.15 4.75 2.45 4.45C2.75 4.15 3.1 4 3.5 4H20.5C20.9 4 21.25 4.15 21.55 4.45C21.85 4.75 22 5.1 22 5.5V18.5C22 18.9 21.85 19.25 21.55 19.55C21.25 19.85 20.9 20 20.5 20H3.5ZM12 12.45L3.5 6.875V18.5H20.5V6.875L12 12.45ZM12 10.95L20.4 5.5H3.625L12 10.95ZM3.5 6.875V5.5V18.5V6.875Z" fill="currentColor"></path>
+					</svg>
+					info@isonex.ru
+				</a>
+			</div>
+	
+			<ul class="footer__contacts-social-media mt-4">
+				<li>
+					<a href="https://t.me/iSonex_ru" target="_blank" class="link-primary">
+						<svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="0.5" y="0.5" width="27" height="27" rx="3.5" fill="currentColor"></rect>
+							<path d="M21.8294 8.46571L19.4529 19.6735C19.2734 20.4644 18.806 20.6613 18.1417 20.2889L14.5203 17.6204L12.7732 19.3012C12.5797 19.4947 12.4182 19.6561 12.0453 19.6561L12.3057 15.9683L19.0169 9.90403C19.3089 9.64415 18.9534 9.49959 18.5635 9.76003L10.2667 14.9845L6.6948 13.8663C5.91799 13.6238 5.90392 13.0895 6.8568 12.7165L20.8276 7.33396C21.4745 7.09153 22.0404 7.47796 21.8294 8.46628V8.46571Z" fill="white"></path>
+							<rect x="0.5" y="0.5" width="27" height="27" rx="3.5" stroke="currentColor"></rect>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/channel/UCmqETTq5acxlVcLfbDe4Rvg" target="_blank" class="link-primary">
+						<svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="0.5" y="0.5" width="27" height="27" rx="3.5" fill="currentColor"></rect>
+							<path d="M22.6255 9.88006C22.5235 9.51649 22.325 9.18732 22.051 8.92756C21.7692 8.65982 21.4238 8.46829 21.0475 8.37106C19.639 7.99981 13.996 7.99981 13.996 7.99981C11.6435 7.97305 9.29153 8.09077 6.95346 8.35231C6.57711 8.45672 6.23239 8.65253 5.94996 8.92231C5.67246 9.18931 5.47146 9.51856 5.36646 9.87931C5.11423 11.2381 4.99168 12.6178 5.00046 13.9998C4.99146 15.3806 5.11371 16.7598 5.36646 18.1203C5.46921 18.4796 5.66946 18.8073 5.94771 19.0721C6.22596 19.3368 6.57246 19.5281 6.95346 19.6293C8.38071 19.9998 13.996 19.9998 13.996 19.9998C16.3515 20.0266 18.7064 19.9089 21.0475 19.6473C21.4238 19.5501 21.7692 19.3586 22.051 19.0908C22.3249 18.8311 22.5232 18.5019 22.6247 18.1383C22.8835 16.78 23.0094 15.3998 23.0005 14.0171C23.0199 12.6285 22.8942 11.2417 22.6255 9.87931V9.88006ZM12.202 16.5678V11.4326L16.897 14.0006L12.202 16.5678Z" fill="white"></path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://vk.com/odeon__light" target="_blank" class="link-primary">
+						<svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="0.5" y="0.5" width="27" height="27" rx="3.5" fill="currentColor"></rect>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M22.5875 9.461C22.712 9.0515 22.5875 8.75 21.9913 8.75H20.0225C19.5215 8.75 19.2905 9.01025 19.1652 9.2975C19.1652 9.2975 18.164 11.6945 16.7458 13.2515C16.2867 13.703 16.0782 13.8463 15.8278 13.8463C15.7025 13.8463 15.5142 13.703 15.5142 13.2928V9.461C15.5142 8.969 15.3763 8.75 14.9593 8.75H11.8632C11.5505 8.75 11.3622 8.978 11.3622 9.19475C11.3622 9.6605 12.0718 9.7685 12.1445 11.0795V13.928C12.1445 14.5528 12.0297 14.666 11.7792 14.666C11.1117 14.666 9.488 12.2577 8.52425 9.50225C8.3375 8.966 8.1485 8.75 7.64525 8.75H5.675C5.1125 8.75 5 9.01025 5 9.2975C5 9.809 5.6675 12.35 8.10875 15.7108C9.73625 18.0057 12.0275 19.25 14.1147 19.25C15.3665 19.25 15.521 18.974 15.521 18.4977V16.763C15.521 16.2102 15.6395 16.1 16.0363 16.1C16.3287 16.1 16.829 16.244 17.9975 17.3502C19.3325 18.662 19.5523 19.25 20.3038 19.25H22.2725C22.835 19.25 23.117 18.974 22.955 18.428C22.7765 17.885 22.139 17.0968 21.2938 16.1615C20.8348 15.629 20.1463 15.0553 19.937 14.768C19.6453 14.3998 19.7285 14.2355 19.937 13.9078C19.937 13.9078 22.337 10.5882 22.5868 9.461H22.5875Z" fill="white"></path>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</aside>
+
+
+<div class="container my-4 my-xl-5"><nav aria-label="breadcrumb" class="mb-4"><ol class="breadcrumb"><li class="breadcrumb-item active" aria-current="page">Главная</li></ol></nav></div><br>
+
+		<!-- Основная часть -->
+		<div class="page "><div class="theme-light sonex-sections-wrapper">
+    <section class="favourites-hero">
+        <div class="favourites-hero__content main-content-wrapper container">
+			
+			<div style="display:flex;justify-content:space-between;">
+				<h1 class="favourites-hero__title sonex-title-size-l">
+					Избранное					<span class="favourites-hero__title-amount sonex-text-size-m">0 товаров</span>
+				</h1>
+
+			</div>
+
+            <div class="favourites-hero__wrapper">
+                                    <div class="favourites-hero__empty" style="display:block">
+                        <div class="favourites-hero__empty-content">
+                            <svg class="favourites-hero__empty-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M60 4.42188C50 4.42188 44.9688 8.73438 40 14.4219C35.0312 8.73438 30 4.42188 20 4.42188C10 4.42188 0 11.0938 0 31.0938C0 41.0938 10 61.0938 40 77.7656C70 61.0938 80 41.0938 80 31.0938C80 11.0938 70 4.42188 60 4.42188Z" fill="#EF7D00"></path>
+                            </svg>
+                            <h2 class="favourites-hero__empty-title sonex-title-size-m">
+                                В избранном пока пусто
+                            </h2>
+                            <p class="favourites-hero__empty-text sonex-text-size-m">
+                                Здесь пока нет понравившихся вам товаров, но вы можете добавить их в избранное, кликнув на
+                                <span>
+                                    <svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_365_61575)">
+                                            <path d="M9 0.698105C7.5 0.698105 6.74531 1.34498 6 2.1981C5.25469 1.34498 4.5 0.698105 3 0.698105C1.5 0.698105 0 1.69889 0 4.69889C0 6.19889 1.5 9.19889 6 11.6997C10.5 9.19889 12 6.19889 12 4.69889C12 1.69889 10.5 0.698105 9 0.698105ZM6 10.5465C1.91484 8.12311 1.00078 5.52389 1.00078 4.69889C1.00078 3.33014 1.34766 1.69889 3 1.69889C4.05 1.69889 4.56094 2.07154 5.24766 2.8567L6 3.6981L6.75234 2.8567C7.43906 2.07154 7.95 1.69889 9 1.69889C10.6523 1.69889 10.9992 3.33014 10.9992 4.69889C10.9992 5.52389 10.0852 8.12311 6 10.5465Z" fill="#EF7D00"></path>
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_365_61575">
+                                                <rect width="12" height="12" fill="white"></rect>
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+</div>
+<script>
+    $('.favourites-hero__wrapper .favourite-add').click(function() {
+        let parent = $(this).parents('.home-sale__cards-card');
+        parent.hide();
+    });
+</script>
+
+<style>
+	.product-card-price-old {
+	
+    text-decoration: line-through;
+	}
+</style>
+
+
+
+
+
+
+
+
+
+
+	</div> <!-- .page -->
+
+		<!-- Футер -->
+		
+<footer id="footer">
+	<div class="container">
+		<div class="row gy-5">
+			<div class="col-12 col-xxl-9">
+				<div class="row gy-5">
+					<div class="col-12 col-lg-5">
+						<nav class="nav-footer">
+							<div class="row row-cols-2 gy-3">
+								<div><a class="link-menu" href="/catalog/">Каталог</a></div>
+								<div><a class="link-menu" href="/about/">О компании</a></div>
+
+								<div><a class="link-menu" href="/designers/">Дизайнерам</a></div>
+								<div><a class="link-menu" href="/contacts/">Контакты</a></div>
+
+								<div><a class="link-menu" href="/where-to-buy/">Где купить</a></div>
+								<div><a class="link-menu" href="/blog/">Блог</a></div>
+								
+								<div><a class="link-menu" href="/delivery/">Доставка</a></div>
+								<div><a class="link-menu" href="#">Сертификаты</a></div>
+
+							</div>
+						</nav>
+					</div>
+					<div class="col-12 col-lg-7">
+						<div class="row gy-4">
+							<div class="col-12 col-md-6">
+								<div class="footer__addresses">
+									<div class="footer__addresses-address">
+										<div class="fs-6 mb-1 text-muted">Адрес офиса:</div>
+										<p class="mb-4">Москва, Лобненская улица, дом 18, строение 1, 2 этаж</p>
+									</div>
+									<div class="footer__addresses-address">
+										<div class="fs-6 mb-1 text-muted">Адрес склада:</div>
+										<p class="">Москва, Лобненская улица, дом 18, строение 5</p>
+									</div>
+								</div>										
+							</div>
+							<div class="col-12 col-md-6">
+								<div class="footer__contacts">
+									<div class="footer__contacts-telmail">
+										<a href="tel:+74951064242" class="link-hover-primary">
+											<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M19.875 21C17.8417 21 15.8208 20.5 13.8125 19.5C11.8042 18.5 10 17.2 8.4 15.6C6.8 14 5.5 12.1958 4.5 10.1875C3.5 8.17917 3 6.15833 3 4.125C3 3.80833 3.10833 3.54167 3.325 3.325C3.54167 3.10833 3.80833 3 4.125 3H7.625C7.85833 3 8.0625 3.07917 8.2375 3.2375C8.4125 3.39583 8.525 3.60833 8.575 3.875L9.25 7.025C9.28333 7.25833 9.27917 7.47083 9.2375 7.6625C9.19583 7.85417 9.10833 8.01667 8.975 8.15L6.475 10.675C7.40833 12.225 8.45417 13.575 9.6125 14.725C10.7708 15.875 12.0833 16.85 13.55 17.65L15.925 15.2C16.0917 15.0167 16.2833 14.8875 16.5 14.8125C16.7167 14.7375 16.9333 14.725 17.15 14.775L20.125 15.425C20.375 15.475 20.5833 15.6 20.75 15.8C20.9167 16 21 16.2333 21 16.5V19.875C21 20.1917 20.8917 20.4583 20.675 20.675C20.4583 20.8917 20.1917 21 19.875 21ZM5.725 9.3L7.75 7.25L7.175 4.5H4.5C4.5 5.15 4.6 5.8625 4.8 6.6375C5 7.4125 5.30833 8.3 5.725 9.3ZM14.95 18.375C15.6333 18.6917 16.375 18.95 17.175 19.15C17.975 19.35 18.75 19.4667 19.5 19.5V16.825L16.925 16.3L14.95 18.375Z"
+													fill="currentColor"></path>
+											</svg>
+											+7 (495) 106-42-42
+										</a>
+										<a href="mailto:info@isonex.ru" class="link-hover-primary">
+											<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M3.5 20C3.1 20 2.75 19.85 2.45 19.55C2.15 19.25 2 18.9 2 18.5V5.5C2 5.1 2.15 4.75 2.45 4.45C2.75 4.15 3.1 4 3.5 4H20.5C20.9 4 21.25 4.15 21.55 4.45C21.85 4.75 22 5.1 22 5.5V18.5C22 18.9 21.85 19.25 21.55 19.55C21.25 19.85 20.9 20 20.5 20H3.5ZM12 12.45L3.5 6.875V18.5H20.5V6.875L12 12.45ZM12 10.95L20.4 5.5H3.625L12 10.95ZM3.5 6.875V5.5V18.5V6.875Z"
+													fill="currentColor"></path>
+											</svg>
+											info@isonex.ru
+										</a>
+									</div>
+
+									<ul class="footer__contacts-social-media mt-4">
+										<li>
+											<a href="https://t.me/iSonex_ru" target="_blank" class="link-primary">
+												<svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="0.5" y="0.5" width="27" height="27" rx="3.5" fill="currentColor"></rect>
+													<path
+														d="M21.8294 8.46571L19.4529 19.6735C19.2734 20.4644 18.806 20.6613 18.1417 20.2889L14.5203 17.6204L12.7732 19.3012C12.5797 19.4947 12.4182 19.6561 12.0453 19.6561L12.3057 15.9683L19.0169 9.90403C19.3089 9.64415 18.9534 9.49959 18.5635 9.76003L10.2667 14.9845L6.6948 13.8663C5.91799 13.6238 5.90392 13.0895 6.8568 12.7165L20.8276 7.33396C21.4745 7.09153 22.0404 7.47796 21.8294 8.46628V8.46571Z"
+														fill="white"></path>
+													<rect x="0.5" y="0.5" width="27" height="27" rx="3.5" stroke="currentColor"></rect>
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/channel/UCmqETTq5acxlVcLfbDe4Rvg" target="_blank" class="link-primary">
+												<svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="0.5" y="0.5" width="27" height="27" rx="3.5" fill="currentColor"></rect>
+													<path
+														d="M22.6255 9.88006C22.5235 9.51649 22.325 9.18732 22.051 8.92756C21.7692 8.65982 21.4238 8.46829 21.0475 8.37106C19.639 7.99981 13.996 7.99981 13.996 7.99981C11.6435 7.97305 9.29153 8.09077 6.95346 8.35231C6.57711 8.45672 6.23239 8.65253 5.94996 8.92231C5.67246 9.18931 5.47146 9.51856 5.36646 9.87931C5.11423 11.2381 4.99168 12.6178 5.00046 13.9998C4.99146 15.3806 5.11371 16.7598 5.36646 18.1203C5.46921 18.4796 5.66946 18.8073 5.94771 19.0721C6.22596 19.3368 6.57246 19.5281 6.95346 19.6293C8.38071 19.9998 13.996 19.9998 13.996 19.9998C16.3515 20.0266 18.7064 19.9089 21.0475 19.6473C21.4238 19.5501 21.7692 19.3586 22.051 19.0908C22.3249 18.8311 22.5232 18.5019 22.6247 18.1383C22.8835 16.78 23.0094 15.3998 23.0005 14.0171C23.0199 12.6285 22.8942 11.2417 22.6255 9.87931V9.88006ZM12.202 16.5678V11.4326L16.897 14.0006L12.202 16.5678Z" fill="white"></path>
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="https://vk.com/odeon__light" target="_blank" class="link-primary">
+												<svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="0.5" y="0.5" width="27" height="27" rx="3.5" fill="currentColor"></rect>
+													<path fill-rule="evenodd" clip-rule="evenodd"
+														d="M22.5875 9.461C22.712 9.0515 22.5875 8.75 21.9913 8.75H20.0225C19.5215 8.75 19.2905 9.01025 19.1652 9.2975C19.1652 9.2975 18.164 11.6945 16.7458 13.2515C16.2867 13.703 16.0782 13.8463 15.8278 13.8463C15.7025 13.8463 15.5142 13.703 15.5142 13.2928V9.461C15.5142 8.969 15.3763 8.75 14.9593 8.75H11.8632C11.5505 8.75 11.3622 8.978 11.3622 9.19475C11.3622 9.6605 12.0718 9.7685 12.1445 11.0795V13.928C12.1445 14.5528 12.0297 14.666 11.7792 14.666C11.1117 14.666 9.488 12.2577 8.52425 9.50225C8.3375 8.966 8.1485 8.75 7.64525 8.75H5.675C5.1125 8.75 5 9.01025 5 9.2975C5 9.809 5.6675 12.35 8.10875 15.7108C9.73625 18.0057 12.0275 19.25 14.1147 19.25C15.3665 19.25 15.521 18.974 15.521 18.4977V16.763C15.521 16.2102 15.6395 16.1 16.0363 16.1C16.3287 16.1 16.829 16.244 17.9975 17.3502C19.3325 18.662 19.5523 19.25 20.3038 19.25H22.2725C22.835 19.25 23.117 18.974 22.955 18.428C22.7765 17.885 22.139 17.0968 21.2938 16.1615C20.8348 15.629 20.1463 15.0553 19.937 14.768C19.6453 14.3998 19.7285 14.2355 19.937 13.9078C19.937 13.9078 22.337 10.5882 22.5868 9.461H22.5875Z"
+														fill="white"></path>
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="https://rutube.ru/channel/24686370/" target="_blank" class="link-primary">
+												<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 132 132" fill="none">
+												<g clip-path="url(#clip0_519_2001)">
+												<path d="M81.5361 62.9865H42.5386V47.5547H81.5361C83.814 47.5547 85.3979 47.9518 86.1928 48.6451C86.9877 49.3385 87.4801 50.6245 87.4801 52.5031V58.0441C87.4801 60.0234 86.9877 61.3094 86.1928 62.0028C85.3979 62.6961 83.814 62.9925 81.5361 62.9925V62.9865ZM84.2115 33.0059H26V99H42.5386V77.5294H73.0177L87.4801 99H106L90.0546 77.4287C95.9333 76.5575 98.573 74.7559 100.75 71.7869C102.927 68.8179 104.019 64.071 104.019 57.7359V52.7876C104.019 49.0303 103.621 46.0613 102.927 43.7857C102.233 41.51 101.047 39.5307 99.362 37.7528C97.5824 36.0698 95.6011 34.8845 93.2223 34.0904C90.8435 33.3971 87.8716 33 84.2115 33V33.0059Z" fill="#EF7D00"/>
+												<path d="M198 3.05176e-05C198 36.4508 168.451 66.0001 132 66.0001C124.589 66.0001 117.464 64.7786 110.814 62.5261C110.956 60.9577 111.019 59.3541 111.019 57.7359V52.7876C111.019 48.586 110.58 44.8824 109.623 41.7436C108.59 38.3588 106.82 35.4458 104.443 32.938L104.311 32.7988L104.172 32.667C101.64 30.2721 98.7694 28.5625 95.4389 27.4506L95.3108 27.4079L95.1812 27.3701C92.0109 26.446 88.3508 26 84.2115 26H77.2115V26.0059H71.3211C67.8964 18.0257 66 9.23434 66 3.05176e-05C66 -36.4508 95.5492 -66 132 -66C168.451 -66 198 -36.4508 198 3.05176e-05Z" fill="#EF7D00"/>
+												</g>
+												<rect x="1" y="1" width="130" height="130" rx="31" stroke="#EF7D00" stroke-width="2"/>
+												<defs>
+												<clipPath id="clip0_519_2001">
+												<rect width="132" height="132" rx="32" fill="white"/>
+												</clipPath>
+												</defs>
+												</svg>
+											</a>
+										</li>
+										
+									</ul>
+
+									<a href="/auth/index.php?register=yes" class="btn btn-primary mt-3">Заявка на регистрацию</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-xxl-3 order-xxl-first">
+				<a href="/">
+					<img class="mb-4" src="/img/sonex-logo.png" alt="">
+				</a>
+				<div class="small text-muted">
+					<p>
+						© 2025 Виртуальный офис для партнеров компании СОНЕКС. Все права защищены.<br>
+						Использование материалов сайта без письменного разрешения запрещено.
+					</p>
+				</div>
+				<div class="small">
+					<p><a href="/politica/" class="link-hover-primary">Политика конфиденциальности</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="/personal/js/jquery.maskedinput.js"></script>
+
+
+<script src="/local/templates/isonex2024/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">	
+	
+	function stopVideo(videoElem) {
+		videoElem.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+	};
+
+	function playVideo(videoElem) {
+		videoElem.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+	};
+
+
+	// Tooltips
+	const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+	const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+
+	// Popovers
+	const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+	const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+</script>
+
+		
+		<script>
+		
+			$('[name="PHONE"]').mask('+9(999)999-99-99');
+			$('[type="tel"]').mask('+9(999)999-99-99');
+		
+			var range_test_slider = document.getElementById('customRangeSlider1');
+
+			if(range_test_slider)
+				noUiSlider.create(range_test_slider, {
+						start: [20, 80],
+						connect: true,
+						range: {
+								'min': 0,
+								'max': 100
+						}
+				});
+				
+				
+				function setCookie(name, value, daysToExpire) {
+					let expires = "";
+					if (daysToExpire) {
+						const date = new Date();
+						date.setTime(date.getTime() + (daysToExpire * 24 * 60 * 60 * 1000));
+						expires = "; expires=" + date.toUTCString();
+					}
+					document.cookie = name + "=" + encodeURIComponent(value) + expires + "; path=/";
+				}
+				
+				function getCookie(name) {
+					const cookieName = name + "=";
+					const cookies = document.cookie.split(';');
+					for (let i = 0; i < cookies.length; i++) {
+						let cookie = cookies[i].trim();
+						if (cookie.indexOf(cookieName) === 0) {
+							return decodeURIComponent(cookie.substring(cookieName.length));
+						}
+					}
+					return null; // Возвращаем null, если куки не найдено
+				}
+				
+				function deleteCookie(name) {
+					document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+				}
+				
+				$('body').on('click','.item_set_cookie',function(){
+					
+					var h = location.hash;
+					//var p = $(this).parents('.item_set_cookie');
+					
+					var url = location.href.replace(h,'');
+					var n = $(this).attr('data-catalog_page');
+					if(n!=1) {
+						if(url.indexOf('?') != -1) {
+							url += '&';
+						} else {
+							url += '?';
+						}
+						
+						url += 'PAGEN_1='+$(this).attr('data-catalog_page');
+					}
+					
+					setCookie('last_catalog_page', url, 1);
+					
+				});
+				
+								
+				
+				
+		</script>
+
+		<script>
+			// const cardDropdown = document.querySelectorAll('.product-card-avaliable-box');
+			// for (var i = 0 ; i < cardDropdown.length; i++) {
+			// 	cardDropdown[i].addEventListener('shown.bs.dropdown', event => {
+			// 		event.target.closest(".product-card").classList.add('active');
+			// 	});			
+			// 	cardDropdown[i].addEventListener('hidden.bs.dropdown', event => {
+			// 		event.target.closest(".product-card").classList.remove('active');
+			// 	});			
+			// }
+
+			const catalog_grid = document.getElementById('main_catalog_grid');
+			if(document.getElementById('grid-choise'))
+			document.getElementById('grid-choise').addEventListener('click', event => {
+				catalog_grid.classList.toggle('advanced');
+			});
+
+			const page_mode = document.getElementById('SwitchCheckPageMode');
+			const catalog_list_page = document.getElementById('catalog_list-page');
+
+			if(page_mode)
+			page_mode.addEventListener('change', (e) => {
+				if (e.target.checked == true) {
+					console.log('page_mode-true: ', this);
+					catalog_list_page.classList.remove('with-filters');
+					
+					document.getElementById('catalog-aside-column').classList.remove('col-xl-4');
+					document.getElementById('catalog-aside-column').classList.remove('col-xxl-3');
+					document.getElementById('catalog-main-column').classList.remove('col-xl-8');
+					document.getElementById('catalog-main-column').classList.remove('col-xxl-9');
+					document.getElementById('filters-pin').classList.remove('d-xl-none');
+				} else {
+					console.log('page_mode-false: ', this);
+					catalog_list_page.classList.add('with-filters');
+					document.getElementById('catalog-aside-column').classList.add('col-xl-4');
+					document.getElementById('catalog-aside-column').classList.add('col-xxl-3');
+					document.getElementById('catalog-main-column').classList.add('col-xl-8');
+					document.getElementById('catalog-main-column').classList.add('col-xxl-9');
+					document.getElementById('filters-pin').classList.add('d-xl-none');				
+				}		
+			});
+
+	
+			var buyButtonItems = document.querySelectorAll('.buy-btn-smpl');
+			buyButtonItems.forEach(function (item, idx) {
+				item.addEventListener('click', function () {
+					this.classList.add('d-none');
+					this.nextElementSibling.classList.remove('d-none');
+				});
+			});
+
+			var buyButtonItemsPopup = document.querySelectorAll('.buy-btn-smpl-popup');
+			buyButtonItemsPopup.forEach(function (item, idx) {
+				item.addEventListener('click', function () {
+					this.classList.add('d-none');
+					this.nextElementSibling.classList.remove('d-none');
+				});
+			});
+
+
+
+			var swiper_popup_card_slider = new Swiper('.popup-card-slider', {
+				// Optional parameters
+				slidesPerView: 1,
+				spaceBetween: 20,
+				loop: false,
+
+				// If we need pagination
+				// pagination: {
+				// 	el: '.popup-card-pagination',
+				// 	dynamicBullets: true,
+				// 	clickable: true,
+				// },
+
+				// Navigation arrows
+				navigation: {
+					nextEl: '.popup-card-button-next',
+					prevEl: '.popup-card-button-prev',
+				},
+			});
+			
+			
+			
+			
+		</script>
+
+		<script>
+		
+			const catalogGrid = document.getElementById('main_catalog_grid');
+			const cards = document.querySelectorAll('.card');
+
+			const intervals = new Map();
+			if(catalogGrid)
+			catalogGrid.addEventListener('mouseover', event => {
+				const card = event.target.closest('.card');
+				if (card && !intervals.has(card)) {
+					const intervalId = setInterval(() => {
+						changeCarouselImage(card);
+					}, 1000);
+					intervals.set(card, intervalId);
+				}
+			});
+
+			if(catalogGrid)
+			catalogGrid.addEventListener('mouseout', event => {
+				const card = event.target.closest('.card');
+				if (card && !card.contains(event.relatedTarget)) {
+					clearCarouselImage(card);
+				}
+			});
+
+			function changeCarouselImage(card) {
+				const images = card.querySelectorAll('.images img');
+				const activeImageIndex = card.dataset.activeImageIndex;
+				if (!activeImageIndex) {
+					card.dataset.activeImageIndex = 1;
+				} else {
+					card.dataset.activeImageIndex = Number(activeImageIndex) + 1 > images.length - 1 ? 0 : Number(activeImageIndex) + 1 % images.length;
+				}
+
+				console.log(card.dataset.activeImageIndex);
+
+				images.forEach((image, index) => {
+					image.style.display = 'none';
+					if (index == card.dataset.activeImageIndex) {
+						image.style.display = 'block';
+					}
+				});
+			}
+
+			function clearCarouselImage(card) {
+				const images = card.querySelectorAll('.images img');
+					images.forEach((image, index) => {
+						image.style.display = 'none';
+						if (index == 0) {
+							image.style.display = 'block';
+						}
+					});
+				clearInterval(intervals.get(card));
+				intervals.delete(card);
+			}
+		</script>
+		
+		
+		
+<script>
+if(document.getElementById('auth-form'))
+document.getElementById('auth-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const login = document.getElementById('login').value;
+    const password = document.getElementById('password').value;
+
+    fetch('/local/ajax/auth.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `login=${encodeURIComponent(login)}&password=${encodeURIComponent(password)}`
+    })
+    .then(response => response.json())
+    .then(data => {
+        const messageElem = document.getElementById('auth-message');
+        if (data.success) {
+            messageElem.style.display = 'block';
+            messageElem.style.color = 'green';
+            messageElem.innerText = 'Успешная авторизация';
+            window.location.href = '/';
+        } else {
+            messageElem.style.display = 'block';
+            messageElem.style.color = 'red';
+            messageElem.innerText = data.message || 'Ошибка авторизации';
+        }
+    })
+    .catch(error => {
+        console.error('Ошибка:', error);
+    });
+});
+</script>
+
+<script type="text/javascript">	
+		
+		function stopVideo(videoElem) {
+	    	videoElem.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+		};
+
+		function playVideo(videoElem) {
+		    videoElem.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+		};
+</script>
+
+
+		
+<script>
+	function objectToQueryString(obj) {
+		const buildQueryString = (prefix, obj) => {
+			return Object.keys(obj).map(key => {
+				const value = obj[key];
+				const prefixedKey = prefix ? `${prefix}[${key}]` : key;
+
+				if (Array.isArray(value)) {
+					return value.map((val, index) => `${encodeURIComponent(prefixedKey)}[${index}]=${encodeURIComponent(val)}`).join('&');
+				} else if (typeof value === 'object' && value !== null) {
+					return buildQueryString(prefixedKey, value);
+				} else {
+					return `${encodeURIComponent(prefixedKey)}=${encodeURIComponent(value)}`;
+				}
+			}).join('&');
+		};
+
+		return buildQueryString('', obj);
+	}
+
+
+		function article_filter() {
+			
+			let get = {};
+			
+			$('.articles-filter .btn-tag.active').each(function(){
+				let name = $(this).attr('data-name');
+				let v = $(this).attr('data-id');
+				if(!get[name]) {
+					get[name] = new Array();
+				}
+				get[name].push(v);
+				
+			});
+			if($('#flexSwitchCheckArticle').is(':checked')) {
+				get['only_articles'] = 'Y';
+			}
+			if($('#flexSwitchCheckVideo').is(':checked')) {
+				get['only_video'] = 'Y';
+			}
+			
+			
+			
+			let a = objectToQueryString(get);
+			
+			$.get(location.pathname,a,function(data){
+				
+				let h = $('<div>'+data+'</div>').find('.the-list').html();
+				$('.the-list').html(h);
+				
+			});
+			
+		}
+		
+		$('.articles-filter .btn-tag').click(function(){
+			article_filter();
+		});
+		$('#flexSwitchCheckArticle').change(function(){
+			
+			if($(this).is(':checked')) {
+				$('#flexSwitchCheckVideo').prop('checked',false);
+			}
+			article_filter();
+		});
+		$('#flexSwitchCheckVideo').change(function(){
+			
+			if($(this).is(':checked')) {
+				$('#flexSwitchCheckArticle').prop('checked',false);
+			}
+			article_filter();
+		});
+		
+		
+function productFilter() {
+	
+	let q = new Array();
+	q.push('ajax_request=Y');
+	
+	var urlpart = location.href.split('?');
+	if(urlpart[1]) {
+		q.push(urlpart[1]);
+	}
+	
+	
+	if($('#flexSwitchCheckNewItems').is(':checked')) {
+		q.push('new=Y');
+	}
+	if($('#flexSwitchCheckStock').is(':checked')) {
+		q.push('action=Y');
+	}
+	if($('#flexSwitchCheckVideo').is(':checked')) {
+		q.push('video=Y');
+	}
+	if($('#flexSwitchCheck3DModel').is(':checked')) {
+		q.push('3d=Y');
+	}
+	
+	if($('#faz3_1').is(':checked')) {
+		q.push('subsection[]=Шинопроводы');
+	}
+	if($('#faz3_2').is(':checked')) {
+		q.push('subsection[]=Светильники');
+	}
+	if($('#faz3_3').is(':checked')) {
+		q.push('subsection[]=Комплектующие');
+	}
+	if($('#faz3_4').is(':checked')) {
+		q.push('subsection[]=Драйверы');
+	}
+	if($('#faz3_5').is(':checked')) {
+		q.push('subsection[]=Умные светильники');
+	}
+	
+	if($('#flum48_1').is(':checked')) {
+		q.push('subsection_tip_montazha[]='+$('#flum48_1').val());
+	}
+	if($('#flum48_2').is(':checked')) {
+		q.push('subsection_tip_montazha[]='+$('#flum48_2').val());
+	}
+	if($('#flum48_3').is(':checked')) {
+		q.push('subsection_tip_montazha[]='+$('#flum48_3').val());
+	}
+	
+	
+	if($('#complfilter.active').length) {
+		q.push('type[]='+$('#complfilter.active').text());
+	}
+	$('.sub-type-filter.active').each(function(){
+		q.push('type[]='+$(this).attr('data-value'));
+	});
+	$('.brand-filter.active').each(function(){
+		q.push('brand[]='+$(this).text());
+	});
+	
+		
+	
+	let url = location.pathname+'?'+q.join('&');
+	
+	$('.smartfilter').attr('action',url);
+	
+	$.get(url,function(data){
+		
+		let h = $('<div>'+data+'</div>').find('.product-list').html();
+		let smw = $('<div>'+data+'</div>').find('.show-more-wrapper').html();
+		
+		
+		$('.product-list').html(h);
+		$('.show-more-wrapper').html(smw);
+	});
+	
+	
+}
+$(document).ready(function () {
+	
+    window.addEventListener('pageshow', function (event) {
+        // Проверяем, не является ли это первоначальной загрузкой
+        if (event.persisted || performance.navigation.type === PerformanceNavigation.TYPE_BACK_FORWARD) {
+			if($('#catalog-main-column [type="checkbox"]:checked').length) {
+				
+				productFilter();
+			}
+        }
+    });
+});
+
+
+function printSetItem(name,selector) {
+	
+	let h = ''+
+	
+		'<button type="button" class="btn btn-tag_ d-flex justify-content-between align-items-center gap-2 set-filter-item" data-selector="#'+selector+'">'+
+				name+' <span role="button" class="btn-close" tabindex="0"></span>'+
+		'</button>';
+
+	$('.set-filter-block').append(h);
+}
+
+$('.product-filter-item').change(function(){
+	
+	productFilter();
+	
+	let n = $(this).parent().find('label').text();
+	let id = $(this).parent().find('label').attr('for');
+	
+	if($(this).is(':checked') && !$(this).parents('#catalog-main-column').length) {
+	
+		printSetItem(n,id);
+	
+	} else {
+		
+		$('[data-selector="#'+id+'"]').remove();
+	
+	}
+	
+	
+});
+$('.product-filter-item:checked').each(function(){
+	
+	let n = $(this).parent().find('label').text();
+	let id = $(this).parent().find('label').attr('for');
+	if(!$(this).parents('#catalog-main-column').length) {
+		printSetItem(n,id);
+	}
+	
+});
+$('.product-filter-item2').change(function(){
+	
+	productFilter();
+	
+	
+	
+});
+
+
+var sfilteradded = {};
+$('.product-sfilter-item:checked').each(function(){
+	
+	let n = $(this).next().text();
+	let id = $(this).next().attr('for');
+	if(!sfilteradded[id]) {
+		printSetItem(n,id);
+		sfilteradded[id] = true;
+	}
+	
+	
+});
+
+var trek_params = new Array(
+	'arrFilter_255_8674763',
+	'arrFilter_255_938742301',
+	'arrFilter_255_2150327007',
+	'arrFilter_255_2255821408',
+	'arrFilter_255_414586257',
+	'arrFilter_252_2566929808',
+	'arrFilter_255_1371408227',
+	'arrFilter_255_999341741',
+	'arrFilter_252_1126045043',
+	'arrFilter_255_1761962536',
+	'arrFilter_255_2422431501',
+	'arrFilter_255_1474668388',
+	'arrFilter_255_3016115129',
+	'arrFilter_255_3354593712',
+	'arrFilter_255_3377311744',
+	'arrFilter_255_1591652658',
+	'arrFilter_255_1624953054',
+	'arrFilter_252_2958898914'
+);
+var trek_params_no_driver = new Array(
+	'arrFilter_252_2958898914',
+	'arrFilter_255_3016115129',
+	'arrFilter_255_1474668388',
+	'arrFilter_255_1591652658',
+);
+
+var flum48_params = new Array(
+	'arrFilter_255_1761962536',
+);
+
+var trek_zavisimost0 = {
+	arrFilter_252_2958898914: [
+		'arrFilter_255_2182483820',
+		'arrFilter_255_8674763',
+		'arrFilter_255_3377311744',
+		'arrFilter_255_2080367892',
+		'arrFilter_255_3016115129',
+		'arrFilter_255_1474668388',
+		'arrFilter_255_2594048106',
+	],
+	arrFilter_252_1126045043: [
+		'arrFilter_255_8674763',
+		'arrFilter_255_3202194138',
+		'arrFilter_255_1371408227',
+		'arrFilter_255_1761962536',
+		'arrFilter_255_999341741',
+		'arrFilter_255_2422431501',
+	],
+	arrFilter_252_2566929808: [
+		'arrFilter_255_2182483820',
+		'arrFilter_255_8674763',
+		'arrFilter_255_1005677066',
+		'arrFilter_255_2150327007',
+		'arrFilter_255_938742301',
+		'arrFilter_255_414586257',
+		'arrFilter_255_2255821408',
+		'arrFilter_255_2080367892',
+		'arrFilter_255_3062073445',
+	],
+	
+};
+
+var trek1 = [
+	'arrFilter_255_2182483820',
+	'arrFilter_255_8674763',
+	'arrFilter_255_3377311744',
+	'arrFilter_255_2080367892',
+	'arrFilter_255_3016115129',
+	'arrFilter_255_1474668388',
+	'arrFilter_255_2594048106',
+	'arrFilter_255_1591652658',
+];
+var trek2 = [
+	'arrFilter_255_8674763',
+	'arrFilter_255_3202194138',
+	'arrFilter_255_1371408227',
+	'arrFilter_255_1761962536',
+	'arrFilter_255_999341741',
+	'arrFilter_255_2422431501',
+];
+var trek3 = [
+	'arrFilter_255_2182483820',
+	'arrFilter_255_8674763',
+	'arrFilter_255_1005677066',
+	'arrFilter_255_2150327007',
+	'arrFilter_255_938742301',
+	'arrFilter_255_414586257',
+	'arrFilter_255_2255821408',
+	'arrFilter_255_2080367892',
+	'arrFilter_255_3062073445',
+];
+
+for(var i = 0;i < trek1.length;i++) {
+	
+	var trek_id = trek1[i];
+	
+	if($('#'+trek_id).is(':checked')) {
+		
+		$('#collapseTwo255 .form-check').addClass('hidden');
+		for(var j = 0;j < trek1.length;j++) {
+			$('#'+trek1[j]).parent().removeClass('hidden');
+		}
+		break;
+	}
+}
+for(var i = 0;i < trek2.length;i++) {
+	
+	var trek_id = trek2[i];
+	
+	if($('#'+trek_id).is(':checked')) {
+		
+		$('#collapseTwo255 .form-check').addClass('hidden');
+		for(var j = 0;j < trek2.length;j++) {
+			$('#'+trek2[j]).parent().removeClass('hidden');
+		}
+		break;
+	}
+}
+for(var i = 0;i < trek3.length;i++) {
+	
+	var trek_id = trek3[i];
+	
+	if($('#'+trek_id).is(':checked')) {
+		
+		$('#collapseTwo255 .form-check').addClass('hidden');
+		for(var j = 0;j < trek3.length;j++) {
+			$('#'+trek3[j]).parent().removeClass('hidden');
+		}
+		break;
+	}
+}
+
+
+
+$('.product-sfilter-item').change(function(){
+	
+	//productFilter();
+	
+	let n = $(this).next().text();
+	let id = $(this).next().attr('for');
+	
+	
+	
+	if($(this).is(':checked')) {
+	
+		printSetItem(n,id);
+	
+	} else {
+		
+		$('[data-selector="#'+id+'"]').remove();
+	
+	}
+	
+	var show_trek_filter = false;
+	var show_trek_filter_driver = true;
+	for(var i = 0;i < trek_params.length;i++) {
+	
+		if(trek_params[i] == id && $(this).is(':checked')) {
+			show_trek_filter = true;
+		}
+		
+	}
+	for(var i = 0;i < trek_params_no_driver.length;i++) {
+	
+		if(trek_params_no_driver[i] == id && $(this).is(':checked')) {
+			show_trek_filter_driver = false;
+		}
+		
+	}
+	
+	if(show_trek_filter_driver) {
+		$('.driver-filter-div').removeClass('hidden');
+	} else {
+		//$('.driver-filter-div').addClass('hidden');
+	}
+	
+	if(show_trek_filter) {
+		$('#trek_filters').removeClass('hidden');
+	} else {
+		//$('#trek_filters').addClass('hidden');
+	}
+	
+	
+	var show_flum48 = false;
+	for(var i = 0;i < flum48_params.length;i++) {
+	
+		if(flum48_params[i] == id && $(this).is(':checked')) {
+			show_flum48 = true;
+		}
+		
+	}
+	if(show_trek_filter) {
+		$('#flum48_filters').removeClass('hidden');
+	} else {
+		//$('#flum48_filters').addClass('hidden');
+	}
+	
+	
+});
+
+$('.btn-tag').click(function() {
+	
+	if($(this).parents('.set-filter-block').length) return false;
+	
+	$(this).parent().find('.btn-tag').removeClass('active');
+	$(this).addClass('active');
+	
+	return false;
+});
+$('.type-filter').click(function(){
+	
+	//if($(this).hasClass('active')) return false;
+	$('[data-selector="#complfilter"]').remove();
+	
+	let n = $(this).text();
+	let id = $(this).attr('id');
+	
+	$('.sub-types').addClass('hidden');
+	$('.sub-type-filter').removeClass('active');
+	
+	if($(this).hasClass('show-sub-types')) {
+	
+		let c = $(this).attr('data-code');
+		$('.sub-types.type-'+c).removeClass('hidden');
+		
+		productFilter();
+		
+	} else if(!$(this).hasClass('show-all-products-2')) {
+	
+		productFilter();
+		
+		
+		if($(this).hasClass('active')) {
+			printSetItem(n,id);
+		} else {
+			$('[data-selector="#'+id+'"]').remove();
+		}
+	
+	}
+	
+	return false;
+});
+$('.sub-type-filter').click(function(){
+	
+	$(this).toggleClass('active');
+	productFilter();
+	
+	let n = $(this).text();
+	let id = $(this).attr('id');
+	
+	if($(this).hasClass('active')) {
+		printSetItem(n,id);
+	} else {
+		$('[data-selector="#'+id+'"]').remove();
+	}
+	
+	return false;
+});
+$('.show-brands').click(function(){
+	
+	if(!$('.brands-list').hasClass('active')) {
+		$('.brands-list').removeClass('hidden');
+		$('.brand-filter').removeClass('active');
+	}
+	
+	return false;
+});
+$('.brand-filter').click(function(){
+	
+	$(this).toggleClass('active');
+	productFilter();
+	
+	let n = $(this).text();
+	let id = $(this).attr('id');
+	
+	if($(this).hasClass('active')) {
+		printSetItem(n,id);
+	} else {
+		$('[data-selector="#'+id+'"]').remove();
+	}
+	
+	return false;
+});
+$('.show-all-products-1').click(function(){
+	
+	$('.brands-list').addClass('hidden');
+	$('.brand-filter').removeClass('active');
+	productFilter();
+	
+	$('.brand-filter').each(function(){
+		let id = $(this).attr('id');
+		$('[data-selector="#'+id+'"]').remove();
+	});
+	
+	return false;
+});
+$('.show-all-products-2').click(function(){
+	
+	$('.sub-types').addClass('hidden');
+	$('.sub-type-filter').removeClass('active');
+	productFilter();
+	
+	$('.sub-type-filter').each(function(){
+		let id = $(this).attr('id');
+		$('[data-selector="#'+id+'"]').remove();
+	});
+	$('[data-selector="#complfilter"]').remove();
+	
+	return false;
+});
+
+
+$('body').on('click','.set-filter-item .btn-close',function(){
+	
+	let s = $(this).parent().attr('data-selector');
+	
+	
+	if($(s).attr('type') == 'checkbox') {
+		//$(s).prop('checked',false);
+		//smartFilter.click($(s));
+		$(s).trigger('click');
+		
+	} else if(s == 'complfilter') {
+		$('#complfilter').removeClass('active');
+		$('.show-all-products-2').addClass('active');
+	} else {
+		$(s).removeClass('active');
+	}
+	
+	
+	$(this).parent().remove();
+	
+	productFilter();
+	
+	return false;
+});
+
+$('.btn-reset-filter').click(function(){
+	
+	$('.set-filter-item .btn-close').each(function(){
+		$(this).click();
+	});
+	
+	return false;
+});
+	$('body').on('click','.show-all',function() {
+		
+		var wrapper = $(this).attr('data-wrapper');
+		
+		$(wrapper).find('.hidden').removeClass('hidden');
+		$(this).remove();
+		return false;
+	});
+
+	$('body').on('click','.show-more',function() {
+			
+		if(document.wait) return;
+		
+		var max = parseInt($(this).attr('data-pages'));
+		var page = parseInt($(this).attr('data-page'));
+		var wrapper = $(this).attr('data-wrapper');
+		var param = $(this).attr('data-param');
+		var t = $(this);
+		
+		if(t.hasClass('loading')) return false;
+		
+		t.addClass('downloading');
+		
+		var new_page = page + 1;
+		
+		var url_string = window.location.href;
+		var url = new URL(url_string);
+		var q = url.searchParams.get("q");
+		
+		if(!q && location.pathname == '/brands/' && $('.company__search-holder [name=q]').val())
+			q = $('.company__search-holder [name=q]').val();
+		
+		//var url = location.pathname+'?';
+		var h = location.hash;
+		var url = location.href.replace(h,'');
+		
+		console.log(url);
+		
+		if(url.indexOf('?') != -1) {
+			url += '&';
+		} else {
+			url += '?';
+		}
+		if(q) url += 'q='+q+'&';
+		
+		$('.product-line-list-filter input:checked').each(function(){
+			
+			url += 'subsection[]='+$(this).val()+'&';
+			
+		});
+		$('.product-line-list-filter2 input:checked').each(function(){
+			
+			url += 'subsection_tip_montazha[]='+$(this).val()+'&';
+			
+		});
+		
+		
+		
+		var cookie_url = url+'PAGEN_'+param+'='+new_page;
+		
+		url = url+'PAGEN_'+param+'='+new_page+'&ncc=1';
+		
+		document.wait = true;
+		
+		$.get(url,function(data){
+		
+			var html = $(data).find(wrapper).html();
+			var show_more = $(data).find('.show-more-wrapper').html();
+			if(!show_more) show_more = ' ';
+			
+		//	console.log(show_more);
+		//	console.log($('.show-more-wrapper'));
+			
+			$(wrapper).append(html);
+			$('.show-more-wrapper').html(show_more);
+			
+			
+			if(new_page >= max)
+			{
+				t.remove();
+			}
+			else
+			{
+				t.attr('data-page',new_page);
+			}
+			
+			
+			t.removeClass('downloading');
+			
+			document.wait = false;
+			
+		});
+		
+		return false;
+	});
+	
+	
+	$('body').on('click','.show-nal',function(){
+		
+		$(this).addClass('hidden');
+		$(this).next().removeClass('hidden');
+		
+		return false;
+	});
+	
+	$('.menu_lvl_1_items').click(function(){
+		
+		$('.menu_lvl_1_items').removeClass('active');
+		$(this).addClass('active');
+		let id = $(this).attr('data-id');
+		$('.menu_lvl_1_content').removeClass('active');
+		$('.menu_lvl_1_content[data-id="'+id+'"]').addClass('active');
+		
+	});
+	
+			$(document).ready(function () {
+			var sities = [];
+
+			$(".sity").each(function (index) {
+				sities.push($(this).html());
+			});
+
+
+			$("input[name=search]").keyup(function () {
+				let val = $(this).val();
+				if (val.length > 0) {
+					$('.removeInputVal').show();
+					$('.stores-map__left-cities').hide();
+				} else {
+					$('.removeInputVal').hide();
+					$('.stores-map__left-cities').show();
+					$('.search-input2__results').show();
+				}
+					let parent = $(this).parent();
+
+					var helps = [];
+
+					sities.forEach(element => {
+						let tmp = element.toLowerCase();
+
+						if (tmp.includes(val.toLowerCase())) {
+							helps.push(element);
+						}
+					});
+
+					let html = "";
+					if (helps.length > 0) {
+						helps.forEach(element => {
+							html = html + "<li><button class='sonex-text-size-m' type='button'>" + element + "</button></li>";
+						})
+						parent.find(".search-input2__results").html(html).show();
+					} else {
+						parent.find(".search-input2__results").hide();
+					}
+				//}
+				//   return
+			});
+
+			$(".search-input2__results").on("click", "button", function () {
+				let parent = $(this).parents("form");
+				parent.find("input[name=search]").val($(this).html());
+			});
+
+			$('.removeInputVal').click(function () {
+				$('.search-input2 input').val('');
+				$(this).hide();
+				$('.search-input2 input').trigger('keyup');
+				$('.search-input2__results').hide();
+					$('.stores-map__left-cities').show();
+			});
+
+		});	
+		
+		/*
+		function wtbFilter() {
+			let val = $(this).html().trim();
+
+			$(`.stores-map__left-cities [data-city="${val}"]`).click();
+		}
+		$(document).on('click', '.search-input2__results button', wtbFilter);
+		*/
+		
+		$('body').on('click','.sity[data-city]',function(){
+			
+			let c = $(this).attr('data-city');
+			
+			location.href = '/where-to-buy/?search='+c;
+			
+		});
+		$('body').on('click','.search-input2__results button',function(){
+			
+			let c = $(this).text();
+			
+			location.href = '/where-to-buy/?search='+c;
+			
+		});
+		
+		
+		
+	
+	$('.accordion-big').click(function(){
+		
+		$(this).toggleClass('accordion-big--open');
+		
+		return false;
+		
+	});
+	
+	$('.contacts-section .contacts-section__head').click(function(){
+        $(this).closest('.contacts-section').toggleClass('contacts-section--open');
+	});
+	
+/*	
+  $("#feedback").submit(function (e) {
+    e.preventDefault();
+
+    var form = $(this);
+
+    $.ajax({
+      url: "/include/ajax/sendForm.php",
+      type: "POST",
+      dataType: "json",
+      data: form.serialize(),
+      success: function (data) {
+        if (data["error"] != undefined) {
+          data["error"].split(",").forEach((element) =>
+            $("[name=" + element + "]")
+              .parent()
+              .addClass("error")
+          );
+        } else {
+          form.html(data);
+        }
+      },
+    });
+
+    return false;
+  });
+  */
+$(document).on('change', '.home-send-request__form [name="PHONE"]', changeBackFormPhone);
+$(document).on('keyup', '.home-send-request__form [name="EMAIL"]', changeBackFormEmail);
+$(document).on('change', '.home-send-request__form [name="EMAIL"]', changeBackFormEmail);
+$(document).on('keyup', '.home-send-request__form input, .home-send-request__form textarea', checkBtnDisabled);
+	
+function changeBackFormPhone() {
+	if ($(this).val().length < 16) {
+		$(this).closest('.input').addClass('error');
+	}
+}
+function changeBackFormEmail() {
+	if ($(this).val().length < 8 || !$(this).val().includes('@')) {
+		$(this).closest('.input').addClass('error');
+	} else {
+		$(this).closest('.input').removeClass('error');
+	}
+}
+
+function checkBtnDisabled() {
+	let ORG_NAME = $('[name="ORG_NAME"]'),
+		PHONE = $('[name="PHONE"]'),
+		EMAIL = $('[name="EMAIL"]'),
+		SITY = $('[name="SITY"]'),
+		NAME = $('[name="NAME"]'),
+		VID = $('[name="VID"]'),
+		notValid = 0;
+
+	if ($(ORG_NAME).val().length < 3) {
+		notValid++;
+	}
+
+	if ($(PHONE).val().length < 16) {
+		notValid++;
+	} else {
+		$(PHONE).closest('.input').removeClass('error');
+	}
+
+	if ($(EMAIL).val().length < 8 && !$(EMAIL).val().includes('@')) {
+		notValid++;
+	} else {
+		$(EMAIL).closest('.input').removeClass('error');
+	}
+
+	if ($(SITY).val().length < 3) {
+		notValid++;
+	}
+
+	if ($(NAME).val().length < 3) {
+		notValid++;
+	}
+
+	if ($(VID).val().length < 3) {
+		notValid++;
+	}
+	
+	console.log(notValid);
+
+	if (notValid == 0) {
+		$('.home-send-request__submit .btn').removeAttr('disabled');
+	} else {
+		$('.home-send-request__submit .btn').attr('disabled', '');
+	}
+}
+
+	var wait = false;
+
+    var $window = $(window);
+
+    $window.on('scroll', function () {
+	
+        var $element = $('#show-more'),
+        offset = 100; // расстояние от верха экрана до появления элемента
+		
+		var $element2 = $('.auto-show-more .show-more');
+		
+		if($element.length) {
+			
+			var elementTop = $element.offset().top;
+			var scrollPosition = $window.scrollTop(); // текущая позиция прокрутки
+
+			if ((scrollPosition + $window.height()) >= (elementTop - offset)) {
+				$element.click(); // кликаем по элементу
+			}
+			
+		}
+		if($element2.length) {
+			
+			var elementTop2 = $element2.offset().top;
+			var scrollPosition2 = $window.scrollTop(); // текущая позиция прокрутки
+
+			if ((scrollPosition2 + $window.height()) >= (elementTop2 - offset)) {
+				$element2.click(); // кликаем по элементу
+			}
+			
+		}
+    });
+	
+	//$(window).scroll(function() {
+	$('body').on('click','#show-more',function() {
+	
+		if(document.wait) return;
+		
+		
+		//let pd = $('#pagination-data');
+		let pd = $('#show-more');
+		
+		pd.text('Загрузка...');
+		
+		var max = parseInt(pd.attr('data-pages'));
+		var page = parseInt(pd.attr('data-page'));
+		var wrapper = pd.attr('data-wrapper');
+		var param = pd.attr('data-param');
+		var t = pd;
+		
+		
+		var new_page = page + 1;
+		
+		var url_string = window.location.href;
+		var url = new URL(url_string);
+		//var q = url.searchParams.get("q");
+		
+	let q = new Array();
+	q.push('ajax_request=Y');
+	if($('#flexSwitchCheckNewItems').is(':checked')) {
+		q.push('new=Y');
+	}
+	if($('#flexSwitchCheckStock').is(':checked')) {
+		q.push('action=Y');
+	}
+	if($('#flexSwitchCheckVideo').is(':checked')) {
+		q.push('video=Y');
+	}
+	if($('#flexSwitchCheck3DModel').is(':checked')) {
+		q.push('3d=Y');
+	}
+	if($('#complfilter.active').length) {
+		q.push('type[]='+$('#complfilter.active').text());
+	}
+	$('.sub-type-filter.active').each(function(){
+		q.push('type[]='+$(this).attr('data-value'));
+	});
+	$('.brand-filter.active').each(function(){
+		q.push('brand[]='+$(this).text());
+	});
+	
+	if($('#faz3_1').is(':checked')) {
+		q.push('subsection[]=Шинопроводы');
+	}
+	if($('#faz3_2').is(':checked')) {
+		q.push('subsection[]=Светильники');
+	}
+	if($('#faz3_3').is(':checked')) {
+		q.push('subsection[]=Комплектующие');
+	}
+	if($('#faz3_4').is(':checked')) {
+		q.push('subsection[]=Драйверы');
+	}
+	if($('#faz3_5').is(':checked')) {
+		q.push('subsection[]=Умные светильники');
+	}
+	
+	
+	if($('#flum48_1').is(':checked')) {
+		q.push('subsection_tip_montazha[]='+$('#flum48_1').val());
+	}
+	if($('#flum48_2').is(':checked')) {
+		q.push('subsection_tip_montazha[]='+$('#flum48_2').val());
+	}
+	if($('#flum48_3').is(':checked')) {
+		q.push('subsection_tip_montazha[]='+$('#flum48_3').val());
+	}
+	
+	
+	
+		
+		//var url = location.pathname+'?';
+		//if(q) url += 'q='+q+'&';
+		var h = location.hash;
+		var url = location.href.replace(h,'');
+		if(url.indexOf('?') != -1) {
+			url += '&';
+		} else {
+			url += '?';
+		}
+		
+		url = url+q.join('&')+'&PAGEN_'+param+'='+new_page;
+		
+		var offset = pd.offset().top;
+		var st = $(window).scrollTop();
+		
+	//	if(st > offset - 700) {
+			
+			document.wait = true;
+			
+			pd.addClass('active');
+			
+			$.get(url,function(data){
+			
+				var html = $('<div>'+data+'</div>').find(wrapper).html();
+				if(wrapper == 'catalog-goods-plate')
+				{
+				var html2 = $('<div>'+data+'</div>').find('.catalog-goods-line').html();
+				}
+				$(wrapper).append(html);
+				
+				if(new_page >= max)
+				{
+					t.remove();
+				}
+				else
+				{
+					t.attr('data-page',new_page);
+				}
+				
+				pd.removeClass('active');
+				document.wait = false;
+				pd.text('Загрузить ещё');
+			
+			});
+		
+	//	}
+		
+	});
+	
+	function productLineListFilter() {
+		
+		
+		
+		var sub1 = new Array();
+		$('.product-line-list-filter [type=checkbox]:checked').each(function(){
+			
+			var v = 'subsection[]='+$(this).val();
+			sub1.push(v);
+			
+		});
+		var sub2 = new Array();
+		$('.product-line-list-filter2 [type=checkbox]:checked').each(function(){
+			
+			var v = 'subsection_tip_montazha[]='+$(this).val();
+			sub2.push(v);
+			
+		});
+		
+		var url = location.pathname;
+		
+		$.get(url+'?'+sub1.join('&')+'&'+sub2.join('&'),function(data){
+			
+			$('[data-wrapper="#container-1"]').parent().show();
+				
+			var h = $('<div>'+data+'</div>').find('#container-1').html();
+			var h2 = $('<div>'+data+'</div>').find('[data-wrapper="#container-1"]').parent().html();
+			$('#container-1').html(h);
+			if(!h2) {
+				$('[data-wrapper="#container-1"]').parent().hide();
+			} else {
+				$('[data-wrapper="#container-1"]').parent().html(h2);
+			}
+			
+		});
+		
+	}
+	
+	$('.product-line-list-filter [type=checkbox]').change(function(){
+	
+		productLineListFilter();
+		
+		
+	});
+	$('.product-line-list-filter2 [type=checkbox]').change(function(){
+	
+		productLineListFilter();
+		
+		
+	});
+	
+	$('.menu-more-link').click(function(){
+		
+		$(this).parents('ul').find('.mb-hidden').toggleClass('hidden');
+		if($(this).text() == 'Еще') {
+			$(this).text('Свернуть');
+			$(this).parent().css('margin-top','0px');
+		} else {
+			$(this).text('Еще');
+			$(this).parent().css('margin-top','-16px');
+		}
+		
+		
+		
+		return false;
+	});
+	
+/*****fav compare****/
+
+$(document).ready(function () {
+
+  /* Favorites */
+  $(document).on("click", '.add-to-fav', function (e) {
+  
+	e.stopPropagation();
+  
+    var favorID = $(this).attr("data-id");
+    if ($(this).hasClass("favourite-add--active")) var doAction = "delete";
+    else var doAction = "add";
+
+    addFavorite(favorID, doAction);
+  });
+  /* Favorites */
+});
+
+/* Избранное */
+function addFavorite(id, action) {
+  var param = "id=" + id + "&action=" + action;
+  $.ajax({
+    url: "/include/ajax/favorite.php",
+    type: "GET",
+    dataType: "html",
+    data: param,
+    success: function (response) {
+      var result = $.parseJSON(response);
+      if (result.res == 1) {
+        //$('.favourite-add[data-item="' + id + '"]').addClass(
+        //  "favourite-add--active"
+        //);
+		//$('.add-to-fav[data-id="' + id + '"]').find('img').attr('src','/local/templates/isonex2024/img/icon-product-heart-active.svg');
+		$('.add-to-fav[data-id="' + id + '"]').addClass('favourite-add--active');
+      }
+      if (result.res == 2) {
+        //$('.favourite-add[data-item="' + id + '"]').removeClass(
+        //  "favourite-add--active"
+        //);
+		//$('.add-to-fav[data-id="' + id + '"]').find('img').attr('src','/local/templates/isonex2024/img/icon-product-heart.svg');
+		$('.add-to-fav[data-id="' + id + '"]').removeClass('favourite-add--active');
+      }
+      //$('.favorites-cnt').html(result.count);
+      // if (+(result.count > 0)) {
+      //   $('.favorites-cnt').removeClass('hidden');
+      // } else {
+      //   $('.favorites-cnt').addClass('hidden');
+      // }
+      setTimeout(()=>{
+        $.ajax({
+          url: "/include/ajax/favorite_count.php",
+          type: "GET",
+          dataType: "html",
+          success: function (response) {
+            var result = $.parseJSON(response);
+              $('.favorites-cnt').html(result.count);
+              if (+(result.count > 0)) {
+                $('.favorites-cnt').removeClass('hidden');
+              } else {
+                $('.favorites-cnt').addClass('hidden');
+              }
+              if (window.location.pathname == '/personal/wishlist/') {
+                $('.favourites-hero__title-amount.sonex-text-size-m').html(result.count+' товаров');
+              }
+              if (window.location.pathname == '/personal/wishlist/' && result.count == 0) {
+                window.location.reload();
+              }
+          }
+        });
+      },150);
+    },
+    error: function (jqXHR, textStatus, errorThrown) {
+      console.log("Error: " + errorThrown);
+    },
+  });
+}
+
+/* Избранное */
+
+function changeCompareList(action, id, $cntContainer, compareUrl) {
+  $.ajax({
+    url: compareUrl + "?action=" + action + "&id=" + id,
+    method: "POST",
+    dataType: "json",
+    data: {
+      id: id,
+    },
+    success: function (response) {
+      // раньше компонент возвращал не валидный json, приходилось парсить
+      // response = response.replace(/\'/g, '"');
+      // response = $.parseJSON(response);//parse JSON
+
+      if (response.STATUS === "OK") {
+        //  console.log('Товар добавлен в список сравнения');
+      } else {
+        //  console.log('Ошибка добавления в список сравнения');
+      }
+
+      if (response.COUNT !== 0) {
+        $cntContainer.removeClass("hidden").html(response.COUNT);
+      } else {
+        $cntContainer.addClass("hidden").html(response.COUNT);
+      }
+
+      if (window.location.pathname == '/catalog/compare/') {
+        window.location.reload();
+      }
+    },
+    error: function (request, status, error) {
+      // console.log('Произошла ошибка:' + error);
+    },
+  });
+}
+
+function addToCompareList(id, $cntContainer, compareUrl) {
+  changeCompareList("ADD_TO_COMPARE_LIST", id, $cntContainer, compareUrl);
+}
+
+function removeFromCompareList(id, $cntContainer, compareUrl) {
+  changeCompareList("DELETE_FROM_COMPARE_LIST", id, $cntContainer, compareUrl);
+}
+
+$(document).ready(function () {
+  $(document).on("click", ".add-to-compare", function () {
+    let $this = $(this);
+    let id = $this.attr("data-id");
+    let $cntContainer = $(".compare-cnt");
+
+    let compareUrl = '/include/ajax/compare.php';//$this.attr("href");
+
+    if ($this.hasClass("comparition-add--active")) {
+      $this.removeClass("comparition-add--active");
+      removeFromCompareList(id, $cntContainer, compareUrl);
+    } else {
+      $this.addClass("comparition-add--active");
+      addToCompareList(id, $cntContainer, compareUrl);
+    }
+
+    return false;
+  });
+
+  $(document).on('click', '.deleteFromCompare', function () {
+    let $this = $(this);
+    let id = $this.attr("data-prod-id");
+    let $cntContainer = $(".compare-cnt");
+    let compareUrl = '/include/ajax/compare.php';//$this.attr("href");
+
+    removeFromCompareList(id, $cntContainer, compareUrl);
+  });
+  
+  
+	$.get('/include/ajax/compare_get.php',function(data){
+	  
+		
+		if(data.arr) {
+			
+			$.each(data.arr,function(index,id){
+				$('.add-to-compare[data-id="' + id + '"]').addClass('comparition-add--active');
+			});
+				
+		}
+	  
+	},'json');
+  
+  
+	$.get('/include/ajax/favorite_count.php',function(data){
+	  
+		if(data.count) {
+			$('.favorites-cnt').text(data.count);
+			$('.favorites-cnt').removeClass('hidden');
+		}
+		
+		if(data.arr) {
+			
+			$.each(data.arr,function(index,id){
+				console.log($('.add-to-fav[data-id="' + id + '"]'));
+				//$('.add-to-fav[data-id="' + id + '"]').find('img').attr('src','/local/templates/isonex2024/img/icon-product-heart-active.svg');
+				$('.add-to-fav[data-id="' + id + '"]').addClass('favourite-add--active');
+			});
+				
+		}
+	  
+	},'json');
+  
+ 
+ 
+	$('body').on('click','.add-to-cart',function(){
+	
+					location.href = '/auth/';
+				
+		return false;
+	});
+	
+	$.get('/local/ajax/get-cart.php',function(data){
+		
+		$.each(data.items,function(k,v){
+			
+			$('.add-to-cart[data-id="'+v.PRODUCT_ID+'"]').parent().addClass('incart');
+			$('.add-to-cart[data-id="'+v.PRODUCT_ID+'"]').parent().find('input').val(v.QUANTITY);
+			$('.add-to-cart[data-id="'+v.PRODUCT_ID+'"]').parent().attr('data-bid',k);
+			
+		});
+		
+	},'json');
+	
+	$('body').on('click','.catalog-counter .catalog-minus',function(){
+		
+		var p = $(this).parents('.buy-row');
+		var bid = $(this).attr('data-bid');
+		var pid = p.find('.add-to-cart').attr('data-id');
+		var q = parseInt(p.find('input').val());
+		
+		if(q > 1) q--;
+		p.find('input').val(q);
+		
+		var bdata = {
+			quantity : q,
+			basket_ID: bid,
+			product_ID : pid
+		};
+		
+		$.post('/local/ajax/cart-update.php',bdata,function(data){
+			
+			$('.hcart_cnt').text(data.cnt);
+			
+			
+		},'json');
+		
+		return false;
+	});
+	$('body').on('click','.catalog-counter .catalog-plus',function(){
+		
+		var p = $(this).parents('.buy-row');
+		var bid = $(this).attr('data-bid');
+		var pid = p.find('.add-to-cart').attr('data-id');
+		var q = parseInt(p.find('input').val());
+		
+		 q++;
+		p.find('input').val(q);
+		
+		var bdata = {
+			quantity : q,
+			basket_ID: bid,
+			product_ID : pid
+		};
+		
+		$.post('/local/ajax/cart-update.php',bdata,function(data){
+			
+			$('.hcart_cnt').text(data.cnt);
+			
+			
+		},'json');
+		
+		return false;
+	});
+	$('.catalog-counter input').change(function(){
+		
+		var p = $(this).parents('.buy-row');
+		var bid = $(this).attr('data-bid');
+		var pid = p.find('.add-to-cart').attr('data-id');
+		var q = parseInt(p.find('input').val());
+		
+		
+		var bdata = {
+			quantity : q,
+			basket_ID: bid,
+			product_ID : pid
+		};
+		
+		$.post('/local/ajax/cart-update.php',bdata,function(data){
+			
+			$('.hcart_cnt').text(data.cnt);
+			
+		},'json');
+		
+		return false;
+	});
+	
+	/*
+	$('.cart_btn_minus').click(function(){
+		
+		var qinp = $(this).parents('form').find('[name="quantity"]');
+		var qspan = $(this).parents('form').find('.quantity_span');
+		
+		var price = parseInt($(this).parents('form').find('[name="price"]'));
+		var bid = $(this).parents('form').find('[name="basket_ID"]');
+		
+		var q = parseInt(qinp.val());
+		
+		if(q > 1) q--;
+		
+		qinp.val(q);
+		qspan.text(q);
+		
+		var new_price = price * q;
+		$('#sum_'+bid).text(new_price+' р');
+		
+		var data = $(this).parents('form').serialize();
+		
+		$.post('/local/ajax/cart-update.php',data,function(data){
+			
+			
+		},'json');
+		
+		
+		return false;
+	});
+	
+	$('.cart_btn_plus').click(function(){
+		
+		var qinp = $(this).parents('form').find('[name="quantity"]');
+		var qspan = $(this).parents('form').find('.quantity_span');
+		
+		var price = parseInt($(this).parents('form').find('[name="price"]'));
+		var bid = $(this).parents('form').find('[name="basket_ID"]');
+		
+		var q = parseInt(qinp.val());
+		q++;
+		
+		qinp.val(q);
+		qspan.text(q);
+		
+		var new_price = price * q;
+		$('#sum_'+bid).text(new_price+' р');
+		
+		var data = $(this).parents('form').serialize();
+		
+		$.post('/local/ajax/cart-update.php',data,function(data){
+			
+			
+		},'json');
+		
+		
+		return false;
+	});
+	*/
+	$('.deleteBasketItem').click(function(){
+		
+		var p = $(this).parents('.order-product');
+		var f = $(this).parents('form');
+		var data = f.serialize();
+		
+		p.remove();
+		
+		if(!$('.order-product').length) {
+			$('.order-info__button').hide();
+		}
+		
+		$.post('/local/ajax/cart-delete.php',data,function(data){
+			
+			
+			
+		},'json');
+		
+		return false;
+	});
+ 
+ 
+	var catalog_grid_img_h = 0;
+	
+	$('.catalog_grid .product-card-image').each(function(){
+		
+		if($(this).height() > catalog_grid_img_h)
+			catalog_grid_img_h = $(this).height();
+		
+	});
+	$('.catalog_grid .product-card-image').height(catalog_grid_img_h);
+ 
+	
+	if($(window).width() <= 1024) {
+		
+		var swiper_article_products_slider = new Swiper('.article-products-slider', {
+			// Optional parameters
+			slidesPerView: 1,
+			spaceBetween: 0,
+			loop: true,
+			  pagination: {
+				el: '.swiper-pagination',
+				dynamicBullets: true,
+				clickable: true,
+			  },
+
+
+		});
+		
+	} else {
+		$('.article-products-slider .swiper-wrapper').css('display','block');
+	}
+	
+	
+	
+	if($('.article_page').length && $('.content-card').length) {
+		
+		if($('.content-card').height() > $('.article_page > .container > .row.position-relative').height())
+			$('.article_page > .container > .row.position-relative').height($('.content-card').height()+300);
+		
+	}
+
+	$('.copy-link').on('click', function () {
+		// Проверяем наличие атрибута data-url
+		const urlToCopy = $(this).data('url') || window.location.href;
+
+		// Создаем временный элемент для копирования текста
+		const tempInput = $('<input>');
+		$('body').append(tempInput);
+		tempInput.val(urlToCopy).select();
+		document.execCommand('copy');
+		tempInput.remove();
+
+		alert(`Скопировано: ${urlToCopy}`);
+	});	
+	
+	$('.totop').click(function(){
+		
+		$('html,body').animate({scrollTop:0},500);
+		
+		return false;
+	});
+	
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 700) {
+            $('.totop').addClass('active');
+        } else {
+            $('.totop').removeClass('active');
+        }
+    });;
+	
+	$('.is_phone').mask('+7(999)999-99-99');
+	
+	
+	$('.top-sub-menu-item_arrow').click(function(){
+		
+		$(this).prev().toggleClass('active');
+		$(this).parent().next().toggleClass('hidden');
+		$(this).toggleClass('active');
+		
+		return false;
+	});
+	
+});	
+
+$('.sort-item-link').click(function(){
+	
+	$(this).parent().find('active.show').removeClass('active').removeClass('show');
+	
+	var url = $(this).attr('href');
+	
+	$.get(url,function(data){
+		
+		location.reload();
+		
+	});
+
+	return false;
+});
+	
+$('.top-sub-menu-item .top-menu-right-h').mouseover(function(){
+	
+	if($(this).parent().next().hasClass('hidden')) {
+		$(this).parent().find('.top-sub-menu-item_arrow').click();
+	}
+	
+});
+
+
+$('.popular-categories-grid-item-card').click(function(){
+	
+	var href = $(this).find('a').attr('href');
+	location.href = href;
+	
+});
+	
+	$('#toggle_add').change(function(){
+		
+		$('.cart-block__left-links').toggleClass('hidden');
+		$('.cart-block__left-search').toggleClass('hidden');
+		
+	});
+	
+	$('#title-search').submit(function(){
+		
+		var v = $('#title-search-input').val().trim();
+		
+		if(!v) {
+			$('#title-search-input').focus();
+			return false;
+		}
+		
+	});
+</script>
+	
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+	(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(100916809, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        //webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/100916809" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+		
+	</body>
+</html>
+
