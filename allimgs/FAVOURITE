@@ -15,9 +15,9 @@
 <link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.css?174315764826358"  rel="stylesheet" />
 <link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.css?17431576482555"  rel="stylesheet" />
 <link href="/bitrix/js/main/popup/dist/main.popup.bundle.css?174470405029852"  rel="stylesheet" />
-<link href="/bitrix/cache/css/s1/b2b/page_08649086029fccadf0bc0228aed6e958/page_08649086029fccadf0bc0228aed6e958_v1.css?175085411783248"  rel="stylesheet" />
-<link href="/bitrix/cache/css/s1/b2b/default_849314fcf07c8f201354204a8ca8a442/default_849314fcf07c8f201354204a8ca8a442_v1.css?17508540909755"  rel="stylesheet" />
-<link href="/bitrix/cache/css/s1/b2b/template_a2a1ec871a79f3a47502c5d7d9ad0393/template_a2a1ec871a79f3a47502c5d7d9ad0393_v1.css?17508545301709146"  data-template-style="true" rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/b2b/page_08649086029fccadf0bc0228aed6e958/page_08649086029fccadf0bc0228aed6e958_v1.css?175086442583248"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/b2b/default_849314fcf07c8f201354204a8ca8a442/default_849314fcf07c8f201354204a8ca8a442_v1.css?17508643879755"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/b2b/template_a2a1ec871a79f3a47502c5d7d9ad0393/template_a2a1ec871a79f3a47502c5d7d9ad0393_v1.css?17508643861709146"  data-template-style="true" rel="stylesheet" />
 <script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
 <script>(window.BX||top.BX).message({"pull_server_enabled":"Y","pull_config_timestamp":1750057160,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1748860606});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
 <script>(window.BX||top.BX).message({"NOTICE_ADDED2CART":"В корзине","NOTICE_CLOSE":"Закрыть","NOTICE_MORE":"и ещё #COUNT# #PRODUCTS#","NOTICE_PRODUCT0":"товаров","NOTICE_PRODUCT1":"товар","NOTICE_PRODUCT2":"товара","NOTICE_ADDED2DELAY":"В отложенных","NOTICE_ADDED2COMPARE":"В сравнении","NOTICE_ERROR":"Ошибка","NOTICE_REQUEST_ERROR":"Ошибка запроса","NOTICE_AUTHORIZED":"Вы успешно авторизовались","NOTICE_ADDED2FAVORITE":"В избранном","NOTICE_ADDED2SUBSCRIBE":"Вы подписались","NOTICE_REMOVED_FROM_COMPARE":"Удалено из сравнения","NOTICE_REMOVED_FROM_FAVORITE":"Удалено из избранного","NOTICE_REMOVED_FROM_SUBSCRIBE":"Удалено из подписки"});</script>
@@ -42,7 +42,7 @@
 <script>BX.Runtime.registerExtension({"name":"aspro_animation_ext","namespace":"window","loaded":true});</script>
 <script>BX.Runtime.registerExtension({"name":"aspro_smart_position_dropdown","namespace":"window","loaded":true});</script>
 <script>BX.Runtime.registerExtension({"name":"aspro_left_menu_aim","namespace":"window","loaded":true});</script>
-<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1750864344,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"33ff8445bc098cb5568fddb3b6f4e305"});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1751123753,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"b13cfe0dfe16d4c9195cbae1a5395c5f"});</script>
 
 <script src="/bitrix/js/pull/protobuf/protobuf.js?1743157656274055"></script>
 <script src="/bitrix/js/pull/protobuf/model.js?174315765670928"></script>
@@ -2120,7 +2120,7 @@
 				</div>
 					                				<div class="topic__heading">
 					<h1 id="pagetitle">Бра</h1>                <span class="element-count-wrapper"><span
-                            class="element-count muted font_xs rounded3">502</span></span>
+                            class="element-count muted font_xs rounded3">505</span></span>
                 				</div>
 			</div>
 		</div>
@@ -2249,7 +2249,7 @@
 				<div id="filter-helper" class="top"></div>
 			</div>
 		<div class="inner_wrapper">
-										<div class="item-cnt" data-count="2093"></div>
+										<div class="item-cnt" data-count="2105"></div>
 			<!--'start_frame_cache_viewtype-block'-->			
 										<div class="ajax_load cur block" data-code="block">
 				
@@ -2344,7 +2344,7 @@
                                 																									<div class="counter_block big" data-item="121637">
 							<span class="minus dark-color" id="bx_3966226736_121637_quant_down" ><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="1" viewBox="0 0 11 1"><rect width="11" height="1" rx="0.5" ry="0.5"/></svg></i></span>
 							<input type="text" class="text" id="bx_3966226736_121637_quantity" name="quantity" value="1" />
-							<span class="plus dark-color" id="bx_3966226736_121637_quant_up" data-max='42'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
+							<span class="plus dark-color" id="bx_3966226736_121637_quant_up" data-max='40'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
 						</div>
 																		                                <div id="bx_3966226736_121637_basket_actions"
                                      class="button_block ">
@@ -2540,7 +2540,7 @@
                                 																									<div class="counter_block big" data-item="121634">
 							<span class="minus dark-color" id="bx_3966226736_121634_quant_down" ><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="1" viewBox="0 0 11 1"><rect width="11" height="1" rx="0.5" ry="0.5"/></svg></i></span>
 							<input type="text" class="text" id="bx_3966226736_121634_quantity" name="quantity" value="1" />
-							<span class="plus dark-color" id="bx_3966226736_121634_quant_up" data-max='44'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
+							<span class="plus dark-color" id="bx_3966226736_121634_quant_up" data-max='43'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
 						</div>
 																		                                <div id="bx_3966226736_121634_basket_actions"
                                      class="button_block ">
@@ -2638,7 +2638,7 @@
                                 																									<div class="counter_block big" data-item="121633">
 							<span class="minus dark-color" id="bx_3966226736_121633_quant_down" ><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="1" viewBox="0 0 11 1"><rect width="11" height="1" rx="0.5" ry="0.5"/></svg></i></span>
 							<input type="text" class="text" id="bx_3966226736_121633_quantity" name="quantity" value="1" />
-							<span class="plus dark-color" id="bx_3966226736_121633_quant_up" data-max='34'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
+							<span class="plus dark-color" id="bx_3966226736_121633_quant_up" data-max='33'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
 						</div>
 																		                                <div id="bx_3966226736_121633_basket_actions"
                                      class="button_block ">
@@ -2736,7 +2736,7 @@
                                 																									<div class="counter_block big" data-item="121632">
 							<span class="minus dark-color" id="bx_3966226736_121632_quant_down" ><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="1" viewBox="0 0 11 1"><rect width="11" height="1" rx="0.5" ry="0.5"/></svg></i></span>
 							<input type="text" class="text" id="bx_3966226736_121632_quantity" name="quantity" value="1" />
-							<span class="plus dark-color" id="bx_3966226736_121632_quant_up" data-max='47'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
+							<span class="plus dark-color" id="bx_3966226736_121632_quant_up" data-max='46'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
 						</div>
 																		                                <div id="bx_3966226736_121632_basket_actions"
                                      class="button_block ">
@@ -3315,7 +3315,7 @@
                                 																									<div class="counter_block big" data-item="121553">
 							<span class="minus dark-color" id="bx_3966226736_121553_quant_down" ><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="1" viewBox="0 0 11 1"><rect width="11" height="1" rx="0.5" ry="0.5"/></svg></i></span>
 							<input type="text" class="text" id="bx_3966226736_121553_quantity" name="quantity" value="1" />
-							<span class="plus dark-color" id="bx_3966226736_121553_quant_up" data-max='17'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
+							<span class="plus dark-color" id="bx_3966226736_121553_quant_up" data-max='16'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
 						</div>
 																		                                <div id="bx_3966226736_121553_basket_actions"
                                      class="button_block ">
@@ -3416,7 +3416,7 @@
                                 																									<div class="counter_block big" data-item="121550">
 							<span class="minus dark-color" id="bx_3966226736_121550_quant_down" ><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="1" viewBox="0 0 11 1"><rect width="11" height="1" rx="0.5" ry="0.5"/></svg></i></span>
 							<input type="text" class="text" id="bx_3966226736_121550_quantity" name="quantity" value="1" />
-							<span class="plus dark-color" id="bx_3966226736_121550_quant_up" data-max='17'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
+							<span class="plus dark-color" id="bx_3966226736_121550_quant_up" data-max='16'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
 						</div>
 																		                                <div id="bx_3966226736_121550_basket_actions"
                                      class="button_block ">
@@ -3712,7 +3712,7 @@
                                 																									<div class="counter_block big" data-item="121545">
 							<span class="minus dark-color" id="bx_3966226736_121545_quant_down" ><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="1" viewBox="0 0 11 1"><rect width="11" height="1" rx="0.5" ry="0.5"/></svg></i></span>
 							<input type="text" class="text" id="bx_3966226736_121545_quantity" name="quantity" value="1" />
-							<span class="plus dark-color" id="bx_3966226736_121545_quant_up" data-max='7'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
+							<span class="plus dark-color" id="bx_3966226736_121545_quant_up" data-max='6'><i class="svg inline  svg-inline-wish ncolor colored1" aria-hidden="true" ><svg width="11" height="11" viewBox="0 0 11 11"><path d="M1034.5,193H1030v4.5a0.5,0.5,0,0,1-1,0V193h-4.5a0.5,0.5,0,0,1,0-1h4.5v-4.5a0.5,0.5,0,0,1,1,0V192h4.5A0.5,0.5,0,0,1,1034.5,193Z" transform="translate(-1024 -187)"/></svg></i></span>
 						</div>
 																		                                <div id="bx_3966226736_121545_basket_actions"
                                      class="button_block ">
@@ -4203,7 +4203,7 @@
                     </div>
     </div>
     
-        <div class="bottom_nav animate-load-state block-type" data-all_count="502"             data-parent=".tabs_slider"
+        <div class="bottom_nav animate-load-state block-type" data-all_count="505"             data-parent=".tabs_slider"
              data-append=".items" >
             				<div class="ajax_load_btn rounded3 colored_theme_hover_bg">
 			<span class="more_text_ajax font_upper_md">Показать еще</span>
@@ -4685,7 +4685,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1208_3698645657" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1208_3698645657">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="Favourite">Favourite (<span data-role="count_MAX_SMART_FILTER_1208_3698645657">397</span>)</span>
+															<span class="bx_filter_param_text" title="Favourite">Favourite (<span data-role="count_MAX_SMART_FILTER_1208_3698645657">400</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -4739,7 +4739,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1188_1420706741" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1188_1420706741">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="Ambient">Ambient (<span data-role="count_MAX_SMART_FILTER_1188_1420706741">57</span>)</span>
+															<span class="bx_filter_param_text" title="Ambient">Ambient (<span data-role="count_MAX_SMART_FILTER_1188_1420706741">58</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -4763,7 +4763,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1188_831288348" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1188_831288348">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="Classic">Classic (<span data-role="count_MAX_SMART_FILTER_1188_831288348">81</span>)</span>
+															<span class="bx_filter_param_text" title="Classic">Classic (<span data-role="count_MAX_SMART_FILTER_1188_831288348">84</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -4953,7 +4953,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1194_622892891" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1194_622892891">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="E14">E14 (<span data-role="count_MAX_SMART_FILTER_1194_622892891">159</span>)</span>
+															<span class="bx_filter_param_text" title="E14">E14 (<span data-role="count_MAX_SMART_FILTER_1194_622892891">162</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -5204,7 +5204,7 @@
 																/>
 																												<label data-role="label_MAX_SMART_FILTER_789_2722407111" class="bx_filter_param_label " for="MAX_SMART_FILTER_789_2722407111">
 															<span class="bx_filter_input_checkbox">
-																<span class="bx_filter_param_text1" title=" Ликвидация"> Ликвидация (<span data-role="count_MAX_SMART_FILTER_789_2722407111">90</span>)</span>
+																<span class="bx_filter_param_text1" title=" Ликвидация"> Ликвидация (<span data-role="count_MAX_SMART_FILTER_789_2722407111">93</span>)</span>
 															</span>
 														</label>
 													</div>
@@ -5280,6 +5280,18 @@
 																																																																													<input
 														type="checkbox"
 														value="Y"
+														name="MAX_SMART_FILTER_1204_1560360174"
+														id="MAX_SMART_FILTER_1204_1560360174"
+																																										onclick="smartFilter.click(this)"
+													/>
+													<label data-role="label_MAX_SMART_FILTER_1204_1560360174" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1204_1560360174">
+														<span class="bx_filter_input_checkbox">
+															<span class="bx_filter_param_text" title="хрусталь, цвет белый">хрусталь, цвет белый (<span data-role="count_MAX_SMART_FILTER_1204_1560360174">1</span>)</span>
+														</span>
+													</label>
+																																																																													<input
+														type="checkbox"
+														value="Y"
 														name="MAX_SMART_FILTER_1204_3004126658"
 														id="MAX_SMART_FILTER_1204_3004126658"
 																																										onclick="smartFilter.click(this)"
@@ -5289,7 +5301,8 @@
 															<span class="bx_filter_param_text" title="золото">золото (<span data-role="count_MAX_SMART_FILTER_1204_3004126658">3</span>)</span>
 														</span>
 													</label>
-																																																																													<input
+																																																																														<div class="hidden_values">
+																										<input
 														type="checkbox"
 														value="Y"
 														name="MAX_SMART_FILTER_1204_1517089015"
@@ -5301,8 +5314,7 @@
 															<span class="bx_filter_param_text" title="черный">черный (<span data-role="count_MAX_SMART_FILTER_1204_1517089015">2</span>)</span>
 														</span>
 													</label>
-																																																																														<div class="hidden_values">
-																										<input
+																																																																													<input
 														type="checkbox"
 														value="Y"
 														name="MAX_SMART_FILTER_1204_2351183754"
@@ -5383,7 +5395,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1204_4101552527" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1204_4101552527">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="прозрачный хрусталь">прозрачный хрусталь (<span data-role="count_MAX_SMART_FILTER_1204_4101552527">5</span>)</span>
+															<span class="bx_filter_param_text" title="прозрачный хрусталь">прозрачный хрусталь (<span data-role="count_MAX_SMART_FILTER_1204_4101552527">6</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -5419,7 +5431,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1204_2974411675" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1204_2974411675">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="металл">металл (<span data-role="count_MAX_SMART_FILTER_1204_2974411675">420</span>)</span>
+															<span class="bx_filter_param_text" title="металл">металл (<span data-role="count_MAX_SMART_FILTER_1204_2974411675">422</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -5728,7 +5740,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1223_2356441200" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1223_2356441200">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="стекло">стекло (<span data-role="count_MAX_SMART_FILTER_1223_2356441200">45</span>)</span>
+															<span class="bx_filter_param_text" title="стекло">стекло (<span data-role="count_MAX_SMART_FILTER_1223_2356441200">46</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -5776,7 +5788,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1223_2654503235" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1223_2654503235">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="хрусталь">хрусталь (<span data-role="count_MAX_SMART_FILTER_1223_2654503235">25</span>)</span>
+															<span class="bx_filter_param_text" title="хрусталь">хрусталь (<span data-role="count_MAX_SMART_FILTER_1223_2654503235">26</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -5832,7 +5844,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1246_3159266060" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1246_3159266060">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="20">20 (<span data-role="count_MAX_SMART_FILTER_1246_3159266060">388</span>)</span>
+															<span class="bx_filter_param_text" title="20">20 (<span data-role="count_MAX_SMART_FILTER_1246_3159266060">390</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -5888,7 +5900,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_792_1884022392" class="bx_filter_param_label  last " for="MAX_SMART_FILTER_792_1884022392">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="В наличии">В наличии (<span data-role="count_MAX_SMART_FILTER_792_1884022392">492</span>)</span>
+															<span class="bx_filter_param_text" title="В наличии">В наличии (<span data-role="count_MAX_SMART_FILTER_792_1884022392">497</span>)</span>
 														</span>
 													</label>
 																																																																						</div>
@@ -5918,7 +5930,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1201_2554751684" class="bx_filter_param_label  last " for="MAX_SMART_FILTER_1201_2554751684">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="нет">нет (<span data-role="count_MAX_SMART_FILTER_1201_2554751684">420</span>)</span>
+															<span class="bx_filter_param_text" title="нет">нет (<span data-role="count_MAX_SMART_FILTER_1201_2554751684">421</span>)</span>
 														</span>
 													</label>
 																																																																						</div>
@@ -6079,7 +6091,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1253_3764711513" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1253_3764711513">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="Да">Да (<span data-role="count_MAX_SMART_FILTER_1253_3764711513">20</span>)</span>
+															<span class="bx_filter_param_text" title="Да">Да (<span data-role="count_MAX_SMART_FILTER_1253_3764711513">21</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -6091,7 +6103,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1253_2037228003" class="bx_filter_param_label  last " for="MAX_SMART_FILTER_1253_2037228003">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="Нет">Нет (<span data-role="count_MAX_SMART_FILTER_1253_2037228003">400</span>)</span>
+															<span class="bx_filter_param_text" title="Нет">Нет (<span data-role="count_MAX_SMART_FILTER_1253_2037228003">401</span>)</span>
 														</span>
 													</label>
 																																																																						</div>
@@ -6121,7 +6133,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1265_4104713243" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1265_4104713243">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="белый">белый (<span data-role="count_MAX_SMART_FILTER_1265_4104713243">40</span>)</span>
+															<span class="bx_filter_param_text" title="белый">белый (<span data-role="count_MAX_SMART_FILTER_1265_4104713243">42</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -6254,7 +6266,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1265_173532174" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1265_173532174">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="Никель">Никель (<span data-role="count_MAX_SMART_FILTER_1265_173532174">10</span>)</span>
+															<span class="bx_filter_param_text" title="Никель">Никель (<span data-role="count_MAX_SMART_FILTER_1265_173532174">11</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -6278,7 +6290,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1265_2626274861" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1265_2626274861">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="золотой">золотой (<span data-role="count_MAX_SMART_FILTER_1265_2626274861">135</span>)</span>
+															<span class="bx_filter_param_text" title="золотой">золотой (<span data-role="count_MAX_SMART_FILTER_1265_2626274861">136</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -6290,7 +6302,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1265_2615411252" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1265_2615411252">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="латунь">латунь (<span data-role="count_MAX_SMART_FILTER_1265_2615411252">49</span>)</span>
+															<span class="bx_filter_param_text" title="латунь">латунь (<span data-role="count_MAX_SMART_FILTER_1265_2615411252">48</span>)</span>
 														</span>
 													</label>
 																																																																													<input
@@ -6334,7 +6346,7 @@
 													/>
 													<label data-role="label_MAX_SMART_FILTER_1272_1000148588" class="bx_filter_param_label   " for="MAX_SMART_FILTER_1272_1000148588">
 														<span class="bx_filter_input_checkbox">
-															<span class="bx_filter_param_text" title="планка">планка (<span data-role="count_MAX_SMART_FILTER_1272_1000148588">492</span>)</span>
+															<span class="bx_filter_param_text" title="планка">планка (<span data-role="count_MAX_SMART_FILTER_1272_1000148588">495</span>)</span>
 														</span>
 													</label>
 																																																																													<input

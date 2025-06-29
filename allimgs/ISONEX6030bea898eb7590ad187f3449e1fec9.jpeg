@@ -35,7 +35,7 @@
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="robots" content="index, follow" />
-<link href="/bitrix/cache/css/s1/isonex2024/template_5cb3dda7768188a119ce6cf89fab9a1c/template_5cb3dda7768188a119ce6cf89fab9a1c_v1.css?175075453296433" type="text/css"  data-template-style="true" rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/isonex2024/template_5cb3dda7768188a119ce6cf89fab9a1c/template_5cb3dda7768188a119ce6cf89fab9a1c_v1.css?175101468396433" type="text/css"  data-template-style="true" rel="stylesheet" />
 <script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
 <script>(window.BX||top.BX).message({"pull_server_enabled":"Y","pull_config_timestamp":1747835096,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1746468106});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
 <script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
@@ -45,7 +45,7 @@
 <script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
 <script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
 </script>
-<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1750764552,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"1a62ea4c12645e1342f25538619398ab"});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1751135819,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"370570a0b70d39478089e0374c33d035"});</script>
 
 
 <script src="/bitrix/js/pull/protobuf/protobuf.min.js?171939009976433"></script>
@@ -57,7 +57,7 @@
 <script>BX.setCSSList(["\/local\/templates\/isonex2024\/components\/bitrix\/search.title\/top\/style.css","\/local\/templates\/isonex2024\/styles.css","\/local\/templates\/isonex2024\/template_styles.css"]);</script>
 
 
-<script  src="/bitrix/cache/js/s1/isonex2024/template_e6dc14005a8f0e1891ce81d4f6a9b405/template_e6dc14005a8f0e1891ce81d4f6a9b405_v1.js?17507545326983"></script>
+<script  src="/bitrix/cache/js/s1/isonex2024/template_e6dc14005a8f0e1891ce81d4f6a9b405/template_e6dc14005a8f0e1891ce81d4f6a9b405_v1.js?17510146836983"></script>
 
 	
 	</head>
@@ -975,7 +975,7 @@
 			var buyButtonItems = document.querySelectorAll('.buy-btn-smpl');
 			buyButtonItems.forEach(function (item, idx) {
 				item.addEventListener('click', function () {
-					this.classList.add('d-none');
+				//	this.classList.add('d-none');
 					this.nextElementSibling.classList.remove('d-none');
 				});
 			});
@@ -988,8 +988,34 @@
 				});
 			});
 
+			var swiper_popup_card_slider = {};
+			$('.popup-card-slider').each(function(i){
+			
+				var id = $(this).attr('data-id');
+				
+				swiper_popup_card_slider[id] = new Swiper('#pcs'+id, {
+					// Optional parameters
+					slidesPerView: 1,
+					spaceBetween: 20,
+					loop: false,
 
+					// If we need pagination
+					// pagination: {
+					// 	el: '.popup-card-pagination',
+					// 	dynamicBullets: true,
+					// 	clickable: true,
+					// },
 
+					// Navigation arrows
+					navigation: {
+						nextEl: '.popup-card-button-next-'+id,
+						prevEl: '.popup-card-button-prev-'+id,
+					},
+				});
+				
+				
+			});
+/*
 			var swiper_popup_card_slider = new Swiper('.popup-card-slider', {
 				// Optional parameters
 				slidesPerView: 1,
@@ -1009,7 +1035,7 @@
 					prevEl: '.popup-card-button-prev',
 				},
 			});
-			
+*/			
 			
 			
 			
@@ -1270,6 +1296,39 @@ function productFilter() {
 		
 		$('.product-list').html(h);
 		$('.show-more-wrapper').html(smw);
+		
+			
+			if(!smw) 
+				$('.show-more-wrapper').html('');
+		
+				$('.popup-card-slider').each(function(i){
+				
+					var id = $(this).attr('data-id');
+					
+						
+						swiper_popup_card_slider[id] = new Swiper('#pcs'+id, {
+							// Optional parameters
+							slidesPerView: 1,
+							spaceBetween: 20,
+							loop: false,
+
+							// If we need pagination
+							// pagination: {
+							// 	el: '.popup-card-pagination',
+							// 	dynamicBullets: true,
+							// 	clickable: true,
+							// },
+
+							// Navigation arrows
+							navigation: {
+								nextEl: '.popup-card-button-next-'+id,
+								prevEl: '.popup-card-button-prev-'+id,
+							},
+						});
+					
+					
+					
+				});
 	});
 	
 	
@@ -2151,6 +2210,38 @@ function checkBtnDisabled() {
 				pd.removeClass('active');
 				document.wait = false;
 				pd.text('Загрузить ещё');
+				
+				
+				$('.popup-card-slider').each(function(i){
+				
+					var id = $(this).attr('data-id');
+					
+					if(!swiper_popup_card_slider[id]) {
+						
+						swiper_popup_card_slider[id] = new Swiper('#pcs'+id, {
+							// Optional parameters
+							slidesPerView: 1,
+							spaceBetween: 20,
+							loop: false,
+
+							// If we need pagination
+							// pagination: {
+							// 	el: '.popup-card-pagination',
+							// 	dynamicBullets: true,
+							// 	clickable: true,
+							// },
+
+							// Navigation arrows
+							navigation: {
+								nextEl: '.popup-card-button-next-'+id,
+								prevEl: '.popup-card-button-prev-'+id,
+							},
+						});
+					}
+					
+					
+					
+				});
 			
 			});
 		
