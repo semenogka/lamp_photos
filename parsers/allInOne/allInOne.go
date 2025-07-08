@@ -37,7 +37,7 @@ var artelampSites = []SiteStruct{
 	{URL: "https://artelamp.ru/catalog/nastolnyie-lampyi-i-nochniki/page_", Category: "alldata\\data\\nastol.json", Pages: 6},
 	{URL: "https://artelamp.ru/catalog/tochechnyie-svetilniki/tochechnyie-vstraivaemyie-svetilniki/page_", Category: "alldata\\data\\tochvstr.json", Pages: 8},
 	{URL: "https://artelamp.ru/catalog/tochechnyie-svetilniki/tochechnyie-nakladnyie-svetilniki/page_", Category: "alldata\\data\\tochnakl.json", Pages: 4},
-	{URL: "https://artelamp.ru/catalog/tochechnyie-svetilniki/tochechnyie-podvesnyie-svetilniki/page_", Category: "alldata\\data\\tochpodves.json", Pages: 2},
+	{URL: "https://artelamp.ru/catalog/tochechnyie-svetilniki/tochechnyie-podvesnyie-svetilniki/page_", Category: "alldata\\data\\tochpodv.json", Pages: 2},
 	{URL: "https://artelamp.ru/catalog/ulichnoe-osveshhenie/gruntovyie-svetilniki/page_", Category: "alldata\\data\\groont.json", Pages: 1},
 	{URL: "https://artelamp.ru/catalog/ulichnoe-osveshhenie/landshaftnyie-svetilniki/page_", Category: "alldata\\data\\land.json", Pages: 2},
 	{URL: "https://artelamp.ru/catalog/ulichnoe-osveshhenie/parkovyie-svetilniki/page_", Category: "alldata\\data\\parkovie.json", Pages: 1},
@@ -56,7 +56,7 @@ var crystalluxSites = []SiteStruct{
 	{URL: "https://crystallux.ru/produktsiya/crystal-lux-technical-clt/clt-nastennye-svetilniki-bra/?PAGEN_1=", Category: "alldata\\data\\bra.json", Pages: 12},
 	{URL: "https://crystallux.ru/produktsiya/crystal-lux-technical-clt/vstraivaemye/?PAGEN_1=", Category: "alldata\\data\\tochvstr.json", Pages: 13},
 	{URL: "https://crystallux.ru/produktsiya/crystal-lux-technical-clt/trekovye-sistemy/svetilniki2/?PAGEN_1=", Category: "alldata\\data\\magn.json", Pages: 6},
-	{URL: "https://crystallux.ru/produktsiya/crystal-lux-technical-clt/clt-potolochnye-svetilniki/?PAGEN_1=", Category: "alldata\\data\\tochpotol.json", Pages: 6},
+	{URL: "https://crystallux.ru/produktsiya/crystal-lux-technical-clt/clt-potolochnye-svetilniki/?PAGEN_1=", Category: "alldata\\data\\potol.json", Pages: 6},
 	{URL: "https://crystallux.ru/produktsiya/crystal-lux-technical-clt/odnofaznaya-trekovaya-sistema/odnofaznaya-svetilniki/?PAGEN_1=", Category: "alldata\\data\\track.json", Pages: 4},
 	{URL: "https://crystallux.ru/produktsiya/crystal-lux-technical-clt/technical-clt-podvesnye-svetilniki/?PAGEN_1=", Category: "alldata\\data\\tochpodv.json", Pages: 6},
 }
@@ -198,6 +198,16 @@ var stluceSites = []SiteStruct {
 	{URL: "https://stluce.ru/catalog/ulichnyy_svet/potolochnye_svetilniki_1/?PAGEN_1=%d", Category: "alldata\\data\\potol.json", Pages: 1},
 }
 
+var modelluxSites = []SiteStruct {
+	{URL: "https://modelux.ru/catalog/liustra?page=%d", Category: "alldata\\data\\lystri.json", Pages: 39},
+	{URL: "https://modelux.ru/catalog/potolocnyi-svetilnik?page=%d", Category: "alldata\\data\\potol.json", Pages: 30},
+	{URL: "https://modelux.ru/catalog/podvesnoi-svetilnik?page=%d", Category: "alldata\\data\\podves.json", Pages: 55},
+	{URL: "https://modelux.ru/catalog/bra?page=%d", Category: "alldata\\data\\bra.json", Pages: 40},
+	{URL: "https://modelux.ru/catalog/nastolnaia-lampa?page=%d", Category: "alldata\\data\\nastol.json", Pages: 6},
+	{URL: "https://modelux.ru/catalog/napolnyi-svetilnik?page=%d", Category: "alldata\\data\\torsher.json", Pages: 3},
+	{URL: "https://modelux.ru/catalog/magnitnye-trekovye-svetilniki?page=%d", Category: "alldata\\data\\magn.json", Pages: 2},
+}
+
 func main() {
 	artelampParser()
 	crystallluxParser()
@@ -209,6 +219,7 @@ func main() {
 	loftitParser()
 	maytoniParser()
 	stluceParser()
+	modelluxParser()
 }
 
 func artelampParser() {
@@ -436,7 +447,7 @@ func isonexParser() {
 
 				products = append(products, Product{
 					Name: filename,
-					Link: url,
+					Link: fullUrl,
 				})
 
 				downloadImg(fullImgURL, filename)
@@ -601,6 +612,52 @@ func stluceParser() {
 			// }
 
 
+			
+		})	
+
+		for i := 1; i <= site.Pages; i++{
+			url := site.URL
+
+
+			page := fmt.Sprintf(url, i)
+			log.Println(page)
+			err := c.Visit(page)
+			if err != nil {
+				log.Fatal(err)
+			}
+		}
+
+		
+		saveToJson(site.Category, products)
+	}
+}
+
+func modelluxParser() {
+	for _, site := range modelluxSites{
+		c := colly.NewCollector()
+		var products []Product
+		count := 0
+		c.OnHTML(".product-item", func(e *colly.HTMLElement) {
+			if (count == 1) {
+				link := e.Attr("href")
+				fullLink := e.Request.AbsoluteURL(link)
+				log.Println("Ссылка на товар:", fullLink)
+				
+				imgSrc := e.ChildAttr("img.product-item__image-img", "src")
+				filename := fmt.Sprintf("MODELLUX%s", path.Base(imgSrc))
+
+				if (filename != "MODELLUXdefault.JPG" && filename != "MODELLUXproduct-default.40dea826.png") {
+					downloadImg(imgSrc, filename)
+
+					products = append(products, Product{
+						Name: filename,
+						Link: fullLink,
+					})
+					log.Println("Картинка:", imgSrc, " ",  "Ссылка на товар:", fullLink, len(products), filename)
+				}
+			}else {
+				count += 1
+			}
 			
 		})	
 
