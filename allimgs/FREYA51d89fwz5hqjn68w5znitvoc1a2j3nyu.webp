@@ -1,0 +1,731 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>404 Not Found</title>
+        <link rel="preload" href="/local/templates/freya/fonts/SuisseIntl/SuisseIntl-Regular.woff2" as="font"
+          type="font/woff2" crossorigin>
+    <link rel="preload" href="/local/templates/freya/fonts/CormorantGaramond/CormorantGaramond-Regular.woff2"
+          as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/local/templates/freya/fonts/CormorantGaramond/CormorantGaramond-Italic.woff2"
+          as="font" type="font/woff2" crossorigin>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/local/templates/freya/myimg/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/local/templates/freya/myimg/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/local/templates/freya/myimg/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/local/templates/freya/myimg/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<link href="/local/templates/freya/fonts/CormorantGaramond/stylesheet.css?16886416242684" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/freya/fonts/SuisseIntl/stylesheet.css?16886416244963" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/freya/vendor/jquery-ui-slider/jquery-ui.min.css?16886416242024" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/freya/css/style.min.css?1749193604145508" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/freya/css/additional.css?1706184053538" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/freya/vendor/aos/dist/aos.css?168864162428765" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/freya/vendor/fancybox/fancybox.css?169883960824879" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/local/templates/freya/components/bitrix/breadcrumb/.default/style.css?1730366648510" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"N","pull_config_timestamp":0,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1750165714});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="/bitrix/js/main/core/core.js?1750166077498062"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1753339038,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"97403b79b065773e55760f8b7180c52e"});</script>
+
+
+<script src="/bitrix/js/pull/protobuf/protobuf.js?1688631795274055"></script>
+<script src="/bitrix/js/pull/protobuf/model.js?168863179570928"></script>
+<script src="/bitrix/js/main/core/core_promise.js?16886317975220"></script>
+<script src="/bitrix/js/rest/client/rest.client.js?168863179617414"></script>
+<script src="/bitrix/js/pull/client/pull.client.js?175016571583861"></script>
+<script>
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script src="/local/templates/freya/vendor/jquery/jquery-3.6.4.min.js?168864162489797"></script>
+<script src="/local/templates/freya/vendor/jquery-ui-slider/jquery-ui.min.js?168864162422803"></script>
+<script src="/local/templates/freya/vendor/jquery-ui-slider/jquery.ui.touch-punch.min.js?16886416241301"></script>
+<script src="/local/templates/freya/vendor/bootstrap/js/dist/util.js?16886416246821"></script>
+<script src="/local/templates/freya/vendor/popper/popper.min.js?168864162419193"></script>
+<script src="/local/templates/freya/vendor/bootstrap/js/dist/modal.js?168864162423478"></script>
+<script src="/local/templates/freya/vendor/bootstrap/js/dist/tooltip.js?168864162428410"></script>
+<script src="/local/templates/freya/vendor/jquery-mask-plugin/jquery.mask.min.js?16886416248346"></script>
+<script src="/local/templates/freya/vendor/aos/dist/aos.js?168864162413801"></script>
+<script src="/local/templates/freya/vendor/lazyload/lazyload.min.js?16886416248894"></script>
+<script src="/local/templates/freya/js/main.bundle.js?1749193604369938"></script>
+<script src="/local/templates/freya/myjs/askaron.js?16886416243092"></script>
+<script src="/bitrix/components/bitrix/search.title/script.js?16886317899847"></script>
+<script src="/local/templates/freya/components/bitrix/search.title/title/script.js?16886416245989"></script>
+<script>var _ba = _ba || []; _ba.push(["aid", "9f8948df36d72800c5fc440d177a3459"]); _ba.push(["host", "freya-light.com"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+    <link rel="canonical" href="https://freya-light.com/upload/webp/uf/b65/51d89fwz5hqjn68w5znitvoc1a2j3nyu.webp"/>
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            if (AOS) {
+                AOS.init({
+                    duration: 800,
+                    once: true
+                });
+            }
+        });
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            if (LazyLoad) {
+                var lazyLoadInstance = new LazyLoad({
+                    // Your custom settings go here
+                });
+            }
+        });
+
+    </script>
+    <meta name="yandex-verification" content="f550aee39f9981e5" />
+<meta name="google-site-verification" content="zUiAPrvs-Htid0cGYg2cuVcpTP0R1tvGJcUrHSHAhS0" />
+<meta name="p:domain_verify" content="2bcc3f52b6862ccc99c58eb3c3f85d70"/>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L9WPFLN7ZQ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-L9WPFLN7ZQ');
+</script>
+
+<script>
+	(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+	ga('create', 'G-L9WPFLN7ZQ', 'auto');
+	ga('send', 'pageview');
+
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(98535981, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/98535981" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+    (function(w, d, s, h, id) {
+        w.roistatProjectId = id; w.roistatHost = h;
+        var p = d.location.protocol == "https:" ? "https://" : "http://";
+        var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init?referrer="+encodeURIComponent(d.location.href);
+        var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+    })(window, document, 'script', 'cloud.roistat.com', '1324f60cbc98fe081ce87e7ab71f12e5');
+</script>
+
+
+
+</head>
+
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="row header__top-row">
+                <a class="header__mob-menu-btn" href="#">
+                    <span class="header__mob-menu-btn-line"> </span>
+                    <span class="header__mob-menu-btn-line"> </span>
+                    <span class="header__mob-menu-btn-line"> </span>
+                </a>
+                <div class="col">
+                    <div class="header__btns-container"><a class="header__btn" href="/sellers/">
+                            <svg class="icon mr-1">
+                                <use xlink:href="/local/templates/freya/img/icons-spritesheet.svg#map-marker"></use>
+                            </svg>
+                            Где купить?</a></div>
+                </div>
+                <div class="col col-auto">
+                    <div class="header__logo"><a href="/"><img src="/local/templates/freya/img/logo.svg" alt=""
+                                                               width="98" height="43"></a></div>
+                </div>
+                <div class="col d-flex">
+                    <div class="header__btns-container ml-auto">
+                        <a class="header__btn" href="#" data-open-popup-search="">
+                            <svg class="icon mr-1">
+                                <use xlink:href="/local/templates/freya/img/icons-spritesheet.svg#search"></use>
+                            </svg>
+                            Поиск
+                        </a>
+                        <a class="header__btn" href="https://b2b.maytoni.ru/#reg">
+                            <svg class="icon mr-1">
+                                <use xlink:href="/local/templates/freya/img/icons-spritesheet.svg#person"></use>
+                            </svg>
+                            Личный кабинет
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__nav-wrap">
+        <div class="container">
+            <div class="header__nav-row">
+                <nav>
+                    
+
+	<ul class="header__nav">
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/products/">
+					Продукция				</a>
+
+
+														<div class="mega-menu">
+						<div class="container mega-menu__content">
+
+							<div class="mega-menu__main-list">
+								<ul class="mega-menu__list">
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/dekorativnyy_svet/lyustra/">Люстры</a>
+
+																																		<picture class="mega-menu__item-picture">
+												<source srcset="/upload/webp/resize_cache/iblock/790/400_400_1/790d7482719d9cbf7f2c2e4af65b1530.webp" type="image/webp"/>
+												<img loading="lazy" src="/upload/resize_cache/iblock/790/400_400_1/790d7482719d9cbf7f2c2e4af65b1530.png" alt=""/>
+											</picture>
+										
+										</li>
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/dekorativnyy_svet/podvesnoy_svetilnik/">Подвесные светильники</a>
+
+																																		<picture class="mega-menu__item-picture">
+												<source srcset="/upload/webp/resize_cache/iblock/1bb/400_400_1/jz57qei1a18epz72n0yxp6i1op346t2v.webp" type="image/webp"/>
+												<img loading="lazy" src="/upload/resize_cache/iblock/1bb/400_400_1/jz57qei1a18epz72n0yxp6i1op346t2v.jpg" alt=""/>
+											</picture>
+										
+										</li>
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/dekorativnyy_svet/potolochnyy_svetilnik/">Потолочные светильники</a>
+
+																																		<picture class="mega-menu__item-picture">
+												<source srcset="/upload/webp/resize_cache/iblock/43e/400_400_1/43e687426e14e199cebd0659d6de9dfa.webp" type="image/webp"/>
+												<img loading="lazy" src="/upload/resize_cache/iblock/43e/400_400_1/43e687426e14e199cebd0659d6de9dfa.png" alt=""/>
+											</picture>
+										
+										</li>
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/dekorativnyy_svet/bra/">Бра</a>
+
+																																		<picture class="mega-menu__item-picture">
+												<source srcset="/upload/webp/resize_cache/iblock/368/400_400_1/u0ocjbp6ua11trdktnlmfjjp0lcb6ja7.webp" type="image/webp"/>
+												<img loading="lazy" src="/upload/resize_cache/iblock/368/400_400_1/u0ocjbp6ua11trdktnlmfjjp0lcb6ja7.jpg" alt=""/>
+											</picture>
+										
+										</li>
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/dekorativnyy_svet/nastolnaya_lampa/">Настольные лампы</a>
+
+																																		<picture class="mega-menu__item-picture">
+												<source srcset="/upload/webp/resize_cache/iblock/f8a/400_400_1/f8a03b95bac80c23203715a58ec8ce5e.webp" type="image/webp"/>
+												<img loading="lazy" src="/upload/resize_cache/iblock/f8a/400_400_1/f8a03b95bac80c23203715a58ec8ce5e.png" alt=""/>
+											</picture>
+										
+										</li>
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/dekorativnyy_svet/torsher/">Торшеры</a>
+
+																																		<picture class="mega-menu__item-picture">
+												<source srcset="/upload/webp/iblock/be7/be7a26789880153ecad7d0b5d369f301.webp" type="image/webp"/>
+												<img loading="lazy" src="/upload/iblock/be7/be7a26789880153ecad7d0b5d369f301.jpg" alt=""/>
+											</picture>
+										
+										</li>
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/dekorativnyy_svet/spot/">Споты</a>
+
+																																		<picture class="mega-menu__item-picture">
+												<source srcset="/upload/webp/resize_cache/iblock/c6e/400_400_1/zq95420o5qdg7phmer4ppgqseyic2b1g.webp" type="image/webp"/>
+												<img loading="lazy" src="/upload/resize_cache/iblock/c6e/400_400_1/zq95420o5qdg7phmer4ppgqseyic2b1g.jpg" alt=""/>
+											</picture>
+										
+										</li>
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/dekorativnyy_svet/aksessuar/">Аксессуар</a>
+
+											
+										</li>
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/lampochki_voltega/">Лампы Voltega</a>
+
+																																		<picture class="mega-menu__item-picture">
+												<source srcset="/upload/webp/resize_cache/iblock/611/400_400_1/611f8bd676be25803bd8e7d1ada26390.webp" type="image/webp"/>
+												<img loading="lazy" src="/upload/resize_cache/iblock/611/400_400_1/611f8bd676be25803bd8e7d1ada26390.png" alt=""/>
+											</picture>
+										
+										</li>
+																			<li class="mega-menu__item ">
+											<a class="mega-menu__link" href="/products/?set_filter=y&arrFilter_99_MIN=1">Акция</a>
+
+											
+										</li>
+																	</ul>
+							</div>
+
+
+																							<div class="mega-menu__side-list">
+
+																												<div class="col-6">
+											<div class="mega-menu__list-heading">Коллекция</div>
+											<ul class="mega-menu__list">
+																									<li class="mega-menu__item">
+														<a class="mega-menu__link" href="/products/?set_filter=Y&arrFilter_87_3579595310=Y&category=COLLECTION&category_id=Classic&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+															Classic														</a>
+													</li>
+																									<li class="mega-menu__item">
+														<a class="mega-menu__link" href="/products/?set_filter=Y&arrFilter_87_2744747461=Y&category=COLLECTION&category_id=Modern&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+															Modern														</a>
+													</li>
+																									<li class="mega-menu__item">
+														<a class="mega-menu__link" href="/products/?set_filter=Y&arrFilter_87_2224774708=Y&category=COLLECTION&category_id=Crystal&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+															Crystal														</a>
+													</li>
+																									<li class="mega-menu__item">
+														<a class="mega-menu__link" href="/products/?set_filter=Y&arrFilter_87_3231811103=Y&category=COLLECTION&category_id=Loft&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+															Loft														</a>
+													</li>
+																									<li class="mega-menu__item">
+														<a class="mega-menu__link" href="/products/?set_filter=Y&arrFilter_87_3865311097=Y&category=COLLECTION&category_id=LED&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+															LED														</a>
+													</li>
+																									<li class="mega-menu__item">
+														<a class="mega-menu__link" href="/products/?set_filter=Y&arrFilter_87_4270559043=Y&category=COLLECTION&category_id=Floristic&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+															Floristic														</a>
+													</li>
+																							</ul>
+										</div>
+									
+								</div>
+													</div>
+					</div>
+							</li>
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/news/">
+					Новости				</a>
+
+
+							</li>
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/journal/">
+					Каталог				</a>
+
+
+							</li>
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/about/">
+					О бренде				</a>
+
+
+							</li>
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="/contacts/">
+					Контакты				</a>
+
+
+							</li>
+					<li class="header__nav-item">
+				<a class="header__nav-link" href="https://maytoni.su/info/brands/freya/">
+					Официальный партнёр				</a>
+
+
+							</li>
+			</ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="mobile-menu">
+    <div class="container mobile-menu__container">
+        <div class="mobile-menu__top row">
+            <div class="col-6">
+                <a class="mobile-menu__btn" href="#" data-open-popup-search="">
+                    <svg class="icon mr-1">
+                        <use xlink:href="/local/templates/freya/img/icons-spritesheet.svg#search"></use>
+                    </svg>
+                    Поиск
+                </a>
+            </div>
+            <div class="col-auto ml-auto">
+                <a class="mobile-menu__btn" href="https://b2b.maytoni.ru/#reg">
+                    <svg class="icon mr-1">
+                        <use xlink:href="/local/templates/freya/img/icons-spritesheet.svg#person"></use>
+                    </svg>
+                    Личный кабинет</a>
+            </div>
+        </div>
+        <div class="mobile-menu__body">
+            
+
+	<ul class="mobile-menu__nav">
+					<li class="mobile-menu__nav-item">
+				<a class="mobile-menu__nav-link"
+
+				   href="/products/"
+				   >
+					   Продукция				</a>
+
+
+														<div class="mobile-menu__sub">
+						<a class="mobile-menu__back-btn" href="#">Назад</a>
+
+						<div class="mobile-menu__sub-nav">
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/dekorativnyy_svet/lyustra/">Люстры</a>
+								</div>
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/dekorativnyy_svet/podvesnoy_svetilnik/">Подвесные светильники</a>
+								</div>
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/dekorativnyy_svet/potolochnyy_svetilnik/">Потолочные светильники</a>
+								</div>
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/dekorativnyy_svet/bra/">Бра</a>
+								</div>
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/dekorativnyy_svet/nastolnaya_lampa/">Настольные лампы</a>
+								</div>
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/dekorativnyy_svet/torsher/">Торшеры</a>
+								</div>
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/dekorativnyy_svet/spot/">Споты</a>
+								</div>
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/dekorativnyy_svet/aksessuar/">Аксессуар</a>
+								</div>
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/lampochki_voltega/">Лампы Voltega</a>
+								</div>
+															<div class="mobile-menu__sub-nav-item">
+									<a class="mobile-menu__sub-nav-link" href="/products/?set_filter=y&arrFilter_99_MIN=1">Акция</a>
+								</div>
+													</div>
+
+
+																				<div class="row">
+																	<div class="col-6">
+										<div class="mobile-menu__sub-nav-heading">Коллекция</div>
+										<div class="mobile-menu__sub-nav">
+																							<div class="mobile-menu__sub-nav-item"><a class="mobile-menu__sub-nav-link" href="/products/?set_filter=Y&arrFilter_87_3579595310=Y&category=COLLECTION&category_id=Classic&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+														Classic													</a></div>
+																							<div class="mobile-menu__sub-nav-item"><a class="mobile-menu__sub-nav-link" href="/products/?set_filter=Y&arrFilter_87_2744747461=Y&category=COLLECTION&category_id=Modern&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+														Modern													</a></div>
+																							<div class="mobile-menu__sub-nav-item"><a class="mobile-menu__sub-nav-link" href="/products/?set_filter=Y&arrFilter_87_2224774708=Y&category=COLLECTION&category_id=Crystal&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+														Crystal													</a></div>
+																							<div class="mobile-menu__sub-nav-item"><a class="mobile-menu__sub-nav-link" href="/products/?set_filter=Y&arrFilter_87_3231811103=Y&category=COLLECTION&category_id=Loft&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+														Loft													</a></div>
+																							<div class="mobile-menu__sub-nav-item"><a class="mobile-menu__sub-nav-link" href="/products/?set_filter=Y&arrFilter_87_3865311097=Y&category=COLLECTION&category_id=LED&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+														LED													</a></div>
+																							<div class="mobile-menu__sub-nav-item"><a class="mobile-menu__sub-nav-link" href="/products/?set_filter=Y&arrFilter_87_4270559043=Y&category=COLLECTION&category_id=Floristic&ELEMENT_SORT_FIELD=PROPERTY_SORT&ELEMENT_SORT_ORDER=ASC">
+														Floristic													</a></div>
+																					</div>
+									</div>
+																							</div>
+											</div>
+							</li>
+					<li class="mobile-menu__nav-item">
+				<a class="mobile-menu__nav-link"
+
+				   href="/news/"
+				   >
+					   Новости				</a>
+
+
+							</li>
+					<li class="mobile-menu__nav-item">
+				<a class="mobile-menu__nav-link"
+
+				   href="/journal/"
+				   >
+					   Каталог				</a>
+
+
+							</li>
+					<li class="mobile-menu__nav-item">
+				<a class="mobile-menu__nav-link"
+
+				   href="/about/"
+				   >
+					   О бренде				</a>
+
+
+							</li>
+					<li class="mobile-menu__nav-item">
+				<a class="mobile-menu__nav-link"
+
+				   href="/contacts/"
+				   >
+					   Контакты				</a>
+
+
+							</li>
+					<li class="mobile-menu__nav-item">
+				<a class="mobile-menu__nav-link"
+
+				   href="https://maytoni.su/info/brands/freya/"
+				   >
+					   Официальный партнёр				</a>
+
+
+							</li>
+			</ul>
+        </div>
+        <div class="mobile-menu__bottom row">
+            <div class="col-6"><a class="mobile-menu__btn" href="/sellers/">
+                    <svg class="icon mr-1">
+                        <use xlink:href="/local/templates/freya/img/icons-spritesheet.svg#map-marker"></use>
+                    </svg>
+                    Где купить?</a></div>
+        </div>
+    </div>
+</div>
+
+<main>
+        <div class="container">
+                    <link href="/bitrix/css/main/font-awesome.css?168863178728777" type="text/css" rel="stylesheet" />
+<div class="bx-breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<div class="bx-breadcrumb-item">
+				
+				<span>Главная</span>
+			</div><div style="clear:both"></div></div>            </div>
+<div class="container">
+	<div class="page-heading-wrap">
+		<h1 class="heading-1 page-heading">Страница не&nbsp;найдена</h1>
+	</div>
+</div>
+<div class="container page-before-content">
+	<div class="text-center"> 
+		<p>Воспользуйтесь навигационным меню или перейдите в&nbsp;Каталог!</p>
+		<div class="mt-5"><a class="btn btn-outline-primary" href="/">Каталог </a></div>
+	</div>
+</div>
+<div class="container page-top-margin"></div>
+
+</main>
+<footer class="footer">
+
+	<div class="container">
+        <div class="footer__top">
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<a class="footer__logo" href="/">
+						<img loading="lazy" src="/local/templates/freya/img/logo.svg" alt="">
+					</a>
+				</div>
+				<div class="col-md-6 col-lg-8 d-flex">
+					<div class="footer__slogan ml-md-auto">
+
+						Impression maker					</div>
+				</div>
+			</div>
+        </div>
+        <div class="footer__middle">
+			<div class="row">
+				<div class="col-6 col-md-2">
+					
+	<div class="footer__menu">
+					<div class="footer__menu-item"> 
+				<a class="footer__menu-link" href="/products/">Продукция</a>
+			</div>
+					<div class="footer__menu-item"> 
+				<a class="footer__menu-link" href="/about/">О бренде</a>
+			</div>
+					<div class="footer__menu-item"> 
+				<a class="footer__menu-link" href="/news/">Новости</a>
+			</div>
+					<div class="footer__menu-item"> 
+				<a class="footer__menu-link" href="https://media.maytoni.ru/?brandIds%5B0%5D=779&page=1&assetNames%5B0%5D%5BcategoryId%5D=738&assetNames%5B0%5D%5Bvalue%5D%5B0%5D=11277375&assetNames%5B0%5D%5Bvalue%5D%5B1%5D=11301679">3D модели</a>
+			</div>
+					<div class="footer__menu-item"> 
+				<a class="footer__menu-link" href="/journal/">Каталог</a>
+			</div>
+					<div class="footer__menu-item"> 
+				<a class="footer__menu-link" href="/contacts/">Контакт</a>
+			</div>
+			</div>
+				</div>
+				<div class="col-6 col-md-2 d-flex flex-column">
+					
+	<div class="footer__menu">
+					<div class="footer__menu-item"> 
+				<a class="footer__menu-link" href="https://t.me/freya_russia">Telegram</a>
+			</div>
+					<div class="footer__menu-item"> 
+				<a class="footer__menu-link" href="https://pin.it/3rgEoCf">Pinterest</a>
+			</div>
+					<div class="footer__menu-item"> 
+				<a class="footer__menu-link" href="https://dzen.ru/id/615af0aa8a08396a9d4d4e0c">Яндекс дзен</a>
+			</div>
+			</div>
+					<div class="footer__contact">
+                                                <a class="footer__contact-item" href="mailto:info@maytoni.ru">
+                            info@maytoni.ru                        </a>
+                        <br/>
+												<a class="footer__contact-item" href="tel:+74957774050">
+							+7 (495) 777-40-50						</a>
+
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="footer__bottom-row">
+			<div class="row align-items-center">
+				<div class="col-md-4">
+					<a class="footer__logo-bottom footer__logo-bottom-maytoni" href="https://maytoni.ru/" target="_blank">
+						<img src="/local/templates/freya/img/logo-maytoni-footer.svg" alt="">
+					</a>
+                    <a class="footer__logo-bottom footer__logo-bottom-voltum" style="padding-left:25px;" href="https://voltum.ru/" target="_blank">
+                        <img src="/local/templates/freya/img/voltum_logo.png" alt="">
+                    </a>
+				</div>
+                <!--<div class="col-md-4">
+                    <a class="footer__logo-bottom" href="https://voltum.ru/" target="_blank">
+                        <img src="/local/templates/freya/img/voltum_logo.png" alt="">
+                    </a>
+                </div>-->
+
+				<div class="col-md-8 pt-4 pt-md-2">
+					
+	<div class="footer__bottom-nav">
+					<a class="footer__bottom-nav-link" href="/upload/PersonalDataRus.pdf">Политика конфидециальности</a>
+					<a class="footer__bottom-nav-link" href="/about/">Правовая информация</a>
+					<a class="footer__bottom-nav-link" href="/upload/PersonalDataRus.pdf">Политика обработки персональных данных</a>
+			</div>
+				</div>
+			</div>
+        </div>
+	</div>
+</footer>
+
+<div class="search-popup">
+	<div class="container position-relative">
+        <button class="search-popup-close" type="button" data-close-popup-search>
+			<svg class="icon">
+			<use xlink:href="/local/templates/freya/img/icons-spritesheet.svg#close"></use>
+			</svg>
+        </button>
+	</div>
+	<div class="search-popup__body">
+        <div class="container search-popup__container">
+			
+<div class="row" >
+	<div class="col-md-10 offset-md-1">
+		<form action="/search/" class="search-popup__form">
+			<div class="search-popup__input-wrap">
+				
+				<input type="text" 
+					   placeholder="Найти на сайте"
+					   id="title-search-input" 
+					   name="q" 
+					   value=""
+					   autocomplete="off"
+					   class="form-input search-popup__input" 
+					   >
+				<button class="btn btn-link search-popup__btn-clear" type="button" data-clear-popup-search="">Очистить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="search-popup__result custom-scrollbar" id="title-search">
+	
+</div>
+<script>
+	$(document).ready(function ()
+	{
+		new AskaronJCTitleSearch({
+			'AJAX_PAGE': '/upload/webp/uf/b65/51d89fwz5hqjn68w5znitvoc1a2j3nyu.webp',
+			'CONTAINER_ID': 'title-search',
+			'INPUT_ID': 'title-search-input',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>
+
+		</div>
+	</div>
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(98993208, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/98993208&quot; style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
